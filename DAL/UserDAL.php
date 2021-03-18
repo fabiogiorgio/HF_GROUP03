@@ -1,8 +1,7 @@
 <?php
     session_start();
     require_once '../includes/credentials.php';
-//inshallah malaca
-    //aaaaa
+
     class UserDAL
     {
         private static $instance = null;
