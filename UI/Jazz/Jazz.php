@@ -10,7 +10,7 @@
         </rect>
     </svg>
     <div id="Group_15">
-        <img id="Group_14" src="images/Group_14.png" srcset="images/Group_14.pimages/Group_14@2x.png@2x.png 2x">
+        <img id="Group_14" src="../../images/Group_14.png" srcset="images/Group_14.pimages/Group_14@2x.png@2x.png 2x">
 
         </svg>
     </div>
@@ -18,7 +18,7 @@
         </svg>
 
     <div id="Group_3479">
-        <img id="Group_12" src="images/Group_12.png" srcset="images/Group_12.pimages/Group_12@2x.png@2x.png 2x">
+        <img id="Group_12" src="../../images/Group_12.png" srcset="images/Group_12.pimages/Group_12@2x.png@2x.png 2x">
 
         </svg>
     </div>
@@ -35,7 +35,7 @@
         </rect>
     </svg>
 <!--    button Thursday 26 start here-->
-    <form action="Includes/add_to_cart.php" method="post">
+    <form action="../../Includes/add_to_cart.php" method="post">
         <button type="submit" name="Thursday">
     <svg class="Rectangle_28">
 
@@ -48,7 +48,7 @@
         </button>
     </form>
 <!--    button Friday 27-->
-    <form action="Includes/add_to_cart.php" method="post">
+    <form action="../../Includes/add_to_cart.php" method="post">
         <button type="submit" name="Friday">
     <div id="ID27th__Friday">
         <span>27th | Friday</span>
@@ -101,7 +101,7 @@
     </div>
     <div id="Group_746">
         <div id="Group_745">
-            <img id="Group_744" src="images/Group_744.png" srcset="images/Group_744.pimages/Group_744@2x.png@2x.png 2x">
+            <img id="Group_744" src="../../images/Group_744.png" srcset="images/Group_744.pimages/Group_744@2x.png@2x.png 2x">
 
             </svg>
         </div>
@@ -118,7 +118,7 @@
     </svg>
     <div id="Group_1385">
         <div id="Group_1384">
-            <img id="Group_1383" src="images/Group_1383.png"
+            <img id="Group_1383" src="../../images/Group_1383.png"
                  srcset="images/Group_1383.pimages/Group_1383@2x.png@2x.png 2x">
 
             </svg>
@@ -146,7 +146,7 @@
     </svg>
     <div id="Group_2024">
         <div id="Group_2023">
-            <img id="Group_2022" src="images/Group_2022.png"
+            <img id="Group_2022" src="../../images/Group_2022.png"
                  srcset="images/Group_2022.pimages/Group_2022@2x.png@2x.png 2x">
 
             </svg>
@@ -169,7 +169,7 @@
     </svg>
     <div id="Group_2663">
         <div id="Group_2662">
-            <img id="Group_2661" src="images/Group_2661.png"
+            <img id="Group_2661" src="../../images/Group_2661.png"
                  srcset="images/Group_2661.pimages/Group_2661@2x.png@2x.png 2x">
 
             </svg>
@@ -187,7 +187,7 @@
     </svg>
     <div id="Group_3302">
         <div id="Group_3301">
-            <img id="Group_3300" src="images/Group_3300.png"
+            <img id="Group_3300" src="../../images/Group_3300.png"
                  srcset="images/Group_3300.pimages/Group_3300@2x.png@2x.png 2x">
 
             </svg>
@@ -226,7 +226,7 @@
     </div>
     <div id="Group_7347">
         <div id="Group_7346">
-            <img id="Group_7345" src="images/Group_7345.png"
+            <img id="Group_7345" src="../../images/Group_7345.png"
                  srcset="images/Group_7345.pimages/Group_7345@2x.png@2x.png 2x">
 
             </svg>
@@ -244,7 +244,7 @@
     </svg>
     <div id="Group_7986">
         <div id="Group_7985">
-            <img id="Group_7984" src="images/Group_7984.png"
+            <img id="Group_7984" src="../../images/Group_7984.png"
                  srcset="images/Group_7984.pimages/Group_7984@2x.png@2x.png 2x">
 
             </svg>
@@ -272,7 +272,7 @@
     </svg>
     <div id="Group_8625">
         <div id="Group_8624">
-            <img id="Group_8623" src="images/Group_8623.png"
+            <img id="Group_8623" src="../../images/Group_8623.png"
                  srcset="images/Group_8623.pimages/Group_8623@2x.png@2x.png 2x">
 
             </svg>
@@ -295,7 +295,7 @@
     </svg>
     <div id="Group_9264">
         <div id="Group_9263">
-            <img id="Group_9262" src="images/Group_9262.png"
+            <img id="Group_9262" src="../../images/Group_9262.png"
                  srcset="images/Group_9262.pimages/Group_9262@2x.png@2x.png 2x">
 
             </svg>
@@ -313,7 +313,7 @@
     </svg>
     <div id="Group_9903">
         <div id="Group_9902">
-            <img id="Group_9901" src="images/Group_9901.png"
+            <img id="Group_9901" src="../../images/Group_9901.png"
                  srcset="images/Group_9901.pimages/Group_9901@2x.png@2x.png 2x">
 
             </svg>
@@ -355,7 +355,7 @@
     </div>
     <div id="Group_10564">
         <div id="Group_10563">
-            <img id="Group_10562" src="images/Group_10562.png"
+            <img id="Group_10562" src="../../images/Group_10562.png"
                  srcset="images/Group_10562.pimages/Group_10562@2x.png@2x.png 2x">
 
             </svg>
@@ -373,7 +373,7 @@
     </svg>
     <div id="Group_11203">
         <div id="Group_11202">
-            <img id="Group_11201" src="images/Group_11201.png"
+            <img id="Group_11201" src="../../images/Group_11201.png"
                  srcset="images/Group_11201.pimages/Group_11201@2x.png@2x.png 2x">
 
             </svg>
@@ -401,7 +401,7 @@
     </svg>
     <div id="Group_11842">
         <div id="Group_11841">
-            <img id="Group_11840" src="images/Group_11840.png"
+            <img id="Group_11840" src="../../images/Group_11840.png"
                  srcset="images/Group_11840.pimages/Group_11840@2x.png@2x.png 2x">
 
             </svg>
@@ -424,7 +424,7 @@
     </svg>
     <div id="Group_12481">
         <div id="Group_12480">
-            <img id="Group_12479" src="images/Group_12479.png"
+            <img id="Group_12479" src="../../images/Group_12479.png"
                  srcset="images/Group_12479.pimages/Group_12479@2x.png@2x.png 2x">
 
             </svg>
@@ -442,7 +442,7 @@
     </svg>
     <div id="Group_13120">
         <div id="Group_13119">
-            <img id="Group_13118" src="images/Group_13118.png"
+            <img id="Group_13118" src="../../images/Group_13118.png"
                  srcset="images/Group_13118.pimages/Group_13118@2x.png@2x.png 2x">
 
             </svg>
@@ -474,7 +474,7 @@
         <rect id="Rectangle_1284" rx="0" ry="0" x="0" y="0" width="614" height="614">
         </rect>
     </svg>
-    <img id="Group_3423" src="images/Group_3423.png" srcset="images/Group_3423.pimages/Group_3423@2x.png@2x.png 2x">
+    <img id="Group_3423" src="../../images/Group_3423.png" srcset="images/Group_3423.pimages/Group_3423@2x.png@2x.png 2x">
 
     </svg>
     <svg class="Path_2490" viewBox="561.5 291.5 312.744 42.735">
@@ -491,7 +491,7 @@
         </rect>
     </svg>
     <div id="Group_3431">
-        <img id="Group_3430" src="images/Group_3430.png" srcset="images/Group_3430.pimages/Group_3430@2x.png@2x.png 2x">
+        <img id="Group_3430" src="../../images/Group_3430.png" srcset="images/Group_3430.pimages/Group_3430@2x.png@2x.png 2x">
 
         </svg>
     </div>
@@ -594,7 +594,7 @@
         <rect id="Rectangle_1297" rx="0" ry="0" x="0" y="0" width="614" height="614">
         </rect>
     </svg>
-    <img id="Rectangle_1298" src="images/Rectangle_1298.png"
+    <img id="Rectangle_1298" src="../../images/Rectangle_1298.png"
          srcset="images/Rectangle_1298.pimages/Rectangle_1298@2x.png@2x.png 2x">
 
     <svg class="Rectangle_1299">
@@ -646,7 +646,7 @@
         <span>Stay on top of your schedule!</span>
     </div>
     <div id="Group_3693">
-        <img id="Group_3640" src="images/Group_3640.png" srcset="images/Group_3640.pimages/Group_3640@2x.png@2x.png 2x">
+        <img id="Group_3640" src="../../images/Group_3640.png" srcset="images/Group_3640.pimages/Group_3640@2x.png@2x.png 2x">
 
         </svg>
     </div>
@@ -1023,7 +1023,7 @@
         </path>
     </svg>
     <!--    gareDuNoord starts here-->
-    <form action="Includes/add_to_cart.php" method="post">
+    <form action="../../Includes/add_to_cart.php" method="post">
         <button type="submit" name="gareDuNoord">
             <div id="Group_3423_lb">
                 <div id="Group_3422">
@@ -1047,7 +1047,7 @@
     <!--    gareDuNoord finishes-->
 
     <!--	rillan and bombardies button add to cart-->
-    <form action="Includes/add_to_cart.php" method="post">
+    <form action="../../Includes/add_to_cart.php" method="post">
         <button type="submit" name="rillanAndBombardies">
             <div id="Group_13151">
                 <div id="Group_3422_lg">
@@ -1456,7 +1456,7 @@
         <span>00</span>
     </div>
 </div>
-<img id="Mask_Group_29" src="images/Mask_Group_29.png"
+<img id="Mask_Group_29" src="../../images/Mask_Group_29.png"
      srcset="images/Mask_Group_29.pimages/Mask_Group_29@2x.png@2x.png 2x">
 
 </svg>
@@ -1475,7 +1475,7 @@
 <div id="_pd">
     <span>€</span>
 </div>
-<img id="SALMON_PHOTO" src="images/SALMON_PHOTO.png" srcset="images/SALMON_PHOTO.pimages/SALMON_PHOTO@2x.png@2x.png 2x">
+<img id="SALMON_PHOTO" src="../../images/SALMON_PHOTO.png" srcset="images/SALMON_PHOTO.pimages/SALMON_PHOTO@2x.png@2x.png 2x">
 
 <div id="HAARLEM_FOOD_TEXT">
     <span>Haarlem Food Festival</span>
@@ -1569,18 +1569,18 @@
 <div id="Get_a_glimpse_of_how_the_festi">
     <span>Get a glimpse of how the festival is!</span>
 </div>
-<img id="Image_1" src="images/Image_1.png" srcset="images/Image_1.pimages/Image_1@2x.png@2x.png 2x">
+<img id="Image_1" src="../../images/Image_1.png" srcset="images/Image_1.pimages/Image_1@2x.png@2x.png 2x">
 
 <div id="Group_6205">
-    <img id="Rectangle_2592" src="images/Rectangle_2592.png"
+    <img id="Rectangle_2592" src="../../images/Rectangle_2592.png"
          srcset="images/Rectangle_2592.pimages/Rectangle_2592@2x.png@2x.png 2x">
 
-    <img id="Rectangle_2593" src="images/Rectangle_2593.png"
+    <img id="Rectangle_2593" src="../../images/Rectangle_2593.png"
          srcset="images/Rectangle_2593.pimages/Rectangle_2593@2x.png@2x.png 2x">
 
 </div>
 <div id="Group_3527">
-    <img id="Group_3526" src="images/Group_3526.png" srcset="images/Group_3526.pimages/Group_3526@2x.png@2x.png 2x">
+    <img id="Group_3526" src="../../images/Group_3526.png" srcset="images/Group_3526.pimages/Group_3526@2x.png@2x.png 2x">
 
     </svg>
 </div>
@@ -1595,7 +1595,7 @@
               d="M 329.0589904785156 1638.183837890625 L 678.5614624023438 1638.183837890625 C 689.7809448242188 1638.183837890625 700.149169921875 1632.19921875 705.7619018554688 1622.484375 L 736.6264038085938 1569.058837890625 L 385.3851928710938 1569.058837890625 C 372.93505859375 1569.058837890625 361.5176391601563 1575.97998046875 355.7581176757813 1587.01708984375 L 329.0589904785156 1638.183837890625 Z">
         </path>
     </svg>
-    <img id="Rectangle_2936" src="images/Rectangle_2936.png"
+    <img id="Rectangle_2936" src="../../images/Rectangle_2936.png"
          srcset="images/Rectangle_2936.pimages/Rectangle_2936@2x.png@2x.png 2x">
 
     <svg class="Path_40331_p" viewBox="212.316 1476.962 407.568 69.125">
@@ -1607,7 +1607,7 @@
               d="M 619.8841552734375 1546.086791992188 L 270.3816223144531 1546.086791992188 C 259.1621398925781 1546.086791992188 248.7939758300781 1540.102172851563 243.1812286376953 1530.387329101563 L 212.3159942626953 1476.9619140625 L 563.5579223632813 1476.9619140625 C 576.00732421875 1476.9619140625 587.4254760742188 1483.8828125 593.1849975585938 1494.920166015625 L 619.8841552734375 1546.086791992188 Z">
         </path>
     </svg>
-    <img id="Rectangle_2937" src="images/Rectangle_2937.png"
+    <img id="Rectangle_2937" src="../../images/Rectangle_2937.png"
          srcset="images/Rectangle_2937.pimages/Rectangle_2937@2x.png@2x.png 2x">
 
     <svg class="Path_40332" viewBox="329.059 1386.162 407.567 69.125">
@@ -1666,7 +1666,7 @@
     </div>
 </div>
 <!--soul six addButton starts here-->
-<form action="Includes/add_to_cart.php" method="post">
+<form action="../../Includes/add_to_cart.php" method="post">
     <button type="submit" name="soulSix">
         <div id="Group_13152">
             <div id="Group_3422_qj">
@@ -1686,7 +1686,7 @@
 <!--soul six finish-->
 
 <!--hannBennick starts-->
-<form action="Includes/add_to_cart.php" method="post">
+<form action="../../Includes/add_to_cart.php" method="post">
     <button type="submit" name="hannBennick">
         <div id="Group_13153">
             <div id="Group_3422_qn">
@@ -1706,7 +1706,7 @@
 <!--hannBennick finishes-->
 
 <!--theNordanians starts-->
-<form action="Includes/add_to_cart.php" method="post">
+<form action="../../Includes/add_to_cart.php" method="post">
     <button type="submit" name="theNordanians">
         <div id="Group_13154">
             <div id="Group_3422_qr">
@@ -1725,7 +1725,7 @@
 <!--theNordanians finish-->
 
 <!--lilith starts-->
-<form action="Includes/add_to_cart.php" method="post">
+<form action="../../Includes/add_to_cart.php" method="post">
     <button type="submit" name="lilith">
         <div id="Group_13155">
             <div id="Group_3422_qv">
@@ -1754,7 +1754,7 @@
     </rect>
 </svg>
 <div id="Group_3306">
-    <img id="Group_3305" src="images/Group_3305.png" srcset="images/Group_3305.pimages/Group_3305@2x.png@2x.png 2x">
+    <img id="Group_3305" src="../../images/Group_3305.png" srcset="images/Group_3305.pimages/Group_3305@2x.png@2x.png 2x">
 
     </svg>
 </div>
@@ -1871,17 +1871,17 @@
     <span>Food</span>
 </div>
 <div id="Group_54_sk">
-    <img id="Group_8_sl" src="images/Group_8_sl.png" srcset="images/Group_8_sl.pimages/Group_8_sl@2x.png@2x.png 2x">
+    <img id="Group_8_sl" src="../../images/Group_8_sl.png" srcset="images/Group_8_sl.pimages/Group_8_sl@2x.png@2x.png 2x">
 
     </svg>
 </div>
 <div id="Group_56_s">
-    <img id="Group_30_s" src="images/Group_30_s.png" srcset="images/Group_30_s.pimages/Group_30_s@2x.png@2x.png 2x">
+    <img id="Group_30_s" src="../../images/Group_30_s.png" srcset="images/Group_30_s.pimages/Group_30_s@2x.png@2x.png 2x">
 
     </svg>
 </div>
 <div id="Group_57_so">
-    <img id="Group_48_sp" src="images/Group_48_sp.png" srcset="images/Group_48_sp.pimages/Group_48_sp@2x.png@2x.png 2x">
+    <img id="Group_48_sp" src="../../images/Group_48_sp.png" srcset="images/Group_48_sp.pimages/Group_48_sp@2x.png@2x.png 2x">
 
     </svg>
 </div>
@@ -1930,17 +1930,17 @@
     <span>Food</span>
 </div>
 <div id="Group_54_sk">
-    <img id="Group_8_sl" src="images/Group_8_sl.png" srcset="images/Group_8_sl.pimages/Group_8_sl@2x.png@2x.png 2x">
+    <img id="Group_8_sl" src="../../images/Group_8_sl.png" srcset="images/Group_8_sl.pimages/Group_8_sl@2x.png@2x.png 2x">
 
     </svg>
 </div>
 <div id="Group_56_s">
-    <img id="Group_30_s" src="images/Group_30_s.png" srcset="images/Group_30_s.pimages/Group_30_s@2x.png@2x.png 2x">
+    <img id="Group_30_s" src="../../images/Group_30_s.png" srcset="images/Group_30_s.pimages/Group_30_s@2x.png@2x.png 2x">
 
     </svg>
 </div>
 <div id="Group_57_so">
-    <img id="Group_48_sp" src="images/Group_48_sp.png" srcset="images/Group_48_sp.pimages/Group_48_sp@2x.png@2x.png 2x">
+    <img id="Group_48_sp" src="../../images/Group_48_sp.png" srcset="images/Group_48_sp.pimages/Group_48_sp@2x.png@2x.png 2x">
 
     </svg>
 </div>
@@ -1989,13 +1989,13 @@
     <span>Food</span>
 </div>
 <div id="Group_56_s">
-    <img id="Group_30_s" src="images/Group_30_s.png" srcset="images/Group_30_s.pimages/Group_30_s@2x.png@2x.png 2x">
+    <img id="Group_30_s" src="../../images/Group_30_s.png" srcset="images/Group_30_s.pimages/Group_30_s@2x.png@2x.png 2x">
 
     </svg>
 </div>
 <a href="">
     <div id="Group_57_s">
-        <img id="Group_48_s" src="images/Group_48_s.png" srcset="images/Group_48_s.pimages/Group_48_s@2x.png@2x.png 2x">
+        <img id="Group_48_s" src="../../images/Group_48_s.png" srcset="images/Group_48_s.pimages/Group_48_s@2x.png@2x.png 2x">
 
         </svg>
     </div>
