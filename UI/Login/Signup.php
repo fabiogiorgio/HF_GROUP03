@@ -1,7 +1,3 @@
-<?php
-require_once 'header.php';
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,10 +15,14 @@ require_once 'header.php';
 <form action = "includes/signup.inc.php" method= "post">
 
     <input type="text" name="firstName" placeholder="First name...">
+    <br>
     <input type="text" name="lastName" placeholder="Last name ...">
+    <br>
 <input type="text" name="email" placeholder="Enter your email...">
 <br>
-<input type="password" name="password" placeholder="Enter your password...">
+    <input type="text" name="loginName" placeholder="Enter your login name...">
+<br>
+    <input type="password" name="password" placeholder="Enter your password...">
 <br>
 <input type="password" name="repeatPassword" placeholder="Repeat password...">
 <br><br>
