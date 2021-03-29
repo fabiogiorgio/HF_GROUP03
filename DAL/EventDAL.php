@@ -1,7 +1,8 @@
 <?php
 
-    session_start();
-    require_once '../includes/credentials.php';
+    //session_start();
+    require '../../Includes/credentials.php';
+
 
     class EventDAL
     {
@@ -23,9 +24,10 @@
             }
             return self::$instance;
         }
+
         public function getAllEvents()
         {
-            $query = "SELECT eventID, eventLocation, EventDateTime, eventHost, maxCapacity FROM Event";
+            $query = "SELECT e.eventLocation, e.eventDateTime, h.hostName, e.maxCapacity, e.eventPrice from Event as e join Host as h ON e.eventHost = h.HostID";
             return $this->executeSelectQuery($query, '');
 
         }
@@ -38,7 +40,7 @@
         private function executeQuery($query, $params, ...$variables)
         {
 
-            //$this->conn->set_charset('utf8');
+            $this->conn->set_charset('utf8');
 
             $stmt = mysqli_stmt_init($this->conn);
             mysqli_stmt_prepare($stmt, $query);
@@ -64,3 +66,4 @@
             return $stmt;
         }
     }
+    ?>

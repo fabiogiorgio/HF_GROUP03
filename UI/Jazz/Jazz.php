@@ -1,6 +1,7 @@
 <?php
     include_once "Includes/header.php";
     require_once "DAL/EventDAL.php";
+    include_once 'Includes/credentials.php';
 
 
 ?>
@@ -15,7 +16,7 @@
         </svg>
     </div>
 
-        </svg>
+    </svg>
 
     <div id="Group_3479">
         <img id="Group_12" src="../../images/Group_12.png" srcset="images/Group_12.pimages/Group_12@2x.png@2x.png 2x">
@@ -34,25 +35,25 @@
         <rect id="Rectangle_27" rx="0" ry="0" x="0" y="0" width="282" height="83">
         </rect>
     </svg>
-<!--    button Thursday 26 start here-->
+    <!--    button Thursday 26 start here-->
     <form action="../../Includes/add_to_cart.php" method="post">
         <button type="submit" name="Thursday">
-    <svg class="Rectangle_28">
+            <svg class="Rectangle_28">
 
-        <rect id="Rectangle_28" rx="0" ry="0" x="0" y="0" width="282" height="83">
-        </rect>
-    </svg>
-    <div id="ID26th__Thursday_gd">
-        <span>26th | Thursday</span>
-    </div>
+                <rect id="Rectangle_28" rx="0" ry="0" x="0" y="0" width="282" height="83">
+                </rect>
+            </svg>
+            <div id="ID26th__Thursday_gd">
+                <span>26th | Thursday</span>
+            </div>
         </button>
     </form>
-<!--    button Friday 27-->
+    <!--    button Friday 27-->
     <form action="../../Includes/add_to_cart.php" method="post">
         <button type="submit" name="Friday">
-    <div id="ID27th__Friday">
-        <span>27th | Friday</span>
-    </div>
+            <div id="ID27th__Friday">
+                <span>27th | Friday</span>
+            </div>
         </button>
     </form>
     <div id="ID29th__Sunday">
@@ -101,7 +102,8 @@
     </div>
     <div id="Group_746">
         <div id="Group_745">
-            <img id="Group_744" src="../../images/Group_744.png" srcset="images/Group_744.pimages/Group_744@2x.png@2x.png 2x">
+            <img id="Group_744" src="../../images/Group_744.png"
+                 srcset="images/Group_744.pimages/Group_744@2x.png@2x.png 2x">
 
             </svg>
         </div>
@@ -212,10 +214,10 @@
         </rect>
     </svg>
 
-        </svg>
+    </svg>
 
 
-        </svg>
+    </svg>
 
     <svg class="Rectangle_1799">
         <rect id="Rectangle_1799" rx="0" ry="0" x="0" y="0" width="282" height="83">
@@ -339,12 +341,12 @@
     </svg>
 
 
-            </svg>
+    </svg>
 
 
-        </svg>
+    </svg>
 
-<!--    thursday rectangle button is here-->
+    <!--    thursday rectangle button is here-->
     <form action=""></form>
     <svg class="Rectangle_2879">
         <rect id="Rectangle_2879" rx="0" ry="0" x="0" y="0" width="282" height="83">
@@ -474,7 +476,8 @@
         <rect id="Rectangle_1284" rx="0" ry="0" x="0" y="0" width="614" height="614">
         </rect>
     </svg>
-    <img id="Group_3423" src="../../images/Group_3423.png" srcset="images/Group_3423.pimages/Group_3423@2x.png@2x.png 2x">
+    <img id="Group_3423" src="../../images/Group_3423.png"
+         srcset="images/Group_3423.pimages/Group_3423@2x.png@2x.png 2x">
 
     </svg>
     <svg class="Path_2490" viewBox="561.5 291.5 312.744 42.735">
@@ -491,7 +494,8 @@
         </rect>
     </svg>
     <div id="Group_3431">
-        <img id="Group_3430" src="../../images/Group_3430.png" srcset="images/Group_3430.pimages/Group_3430@2x.png@2x.png 2x">
+        <img id="Group_3430" src="../../images/Group_3430.png"
+             srcset="images/Group_3430.pimages/Group_3430@2x.png@2x.png 2x">
 
         </svg>
     </div>
@@ -646,7 +650,8 @@
         <span>Stay on top of your schedule!</span>
     </div>
     <div id="Group_3693">
-        <img id="Group_3640" src="../../images/Group_3640.png" srcset="images/Group_3640.pimages/Group_3640@2x.png@2x.png 2x">
+        <img id="Group_3640" src="../../images/Group_3640.png"
+             srcset="images/Group_3640.pimages/Group_3640@2x.png@2x.png 2x">
 
         </svg>
     </div>
@@ -742,7 +747,7 @@
     </div>
 
 
-        </svg>
+    </svg>
 
     <div id="Group_3450">
         <svg class="Path_2517" viewBox="0 0 241.316 662.662">
@@ -755,14 +760,14 @@
                   d="M 3555 519.0001220703125 L 3355.999755859375 519.0001220703125 C 3350.390625 519.0001220703125 3345.117431640625 516.8157348632813 3341.151123046875 512.849365234375 C 3337.184814453125 508.8827819824219 3335.00048828125 503.609130859375 3335.00048828125 497.9999084472656 L 3335.00048828125 35.00037384033203 L 3576.000244140625 35.00031280517578 L 3576.000244140625 497.9999084472656 C 3576.000244140625 503.6093139648438 3573.81591796875 508.8829650878906 3569.849365234375 512.849365234375 C 3565.883056640625 516.8157348632813 3560.609619140625 519.0001220703125 3555 519.0001220703125 Z">
             </path>
         </svg>
-<!--        <div id="Group_3443">-->
-            <svg class="Path_2509" viewBox="0 0 241 76">
-                <path id="Path_2509" d="M 0 0 L 241 0 L 241 76 L 0 76 L 0 0 Z">
-                </path>
-            </svg>
-            <div id="ID0">
-                <span>0</span>
-<!--            </div>-->
+        <!--        <div id="Group_3443">-->
+        <svg class="Path_2509" viewBox="0 0 241 76">
+            <path id="Path_2509" d="M 0 0 L 241 0 L 241 76 L 0 76 L 0 0 Z">
+            </path>
+        </svg>
+        <div id="ID0">
+            <span>0</span>
+            <!--            </div>-->
             <div id="Group_3442">
                 <a href="">
                     <svg class="Rectangle_1768">
@@ -777,306 +782,306 @@
                     </svg>
                 </a>
             </div>
-<!--            <div id="Group_3441">-->
-<!--                <a href="">-->
-<!--                    <svg class="Rectangle_1769">-->
-<!--                        <rect id="Rectangle_1769" rx="0" ry="0" x="0" y="0" width="45" height="45">-->
-<!--                        </rect>-->
-<!--                    </svg>-->
-<!--                </a>-->
-<!--                <div id="Group_3440">-->
-<!--                    <a href="">-->
-<!--                        <svg class="Line_38" viewBox="0 0 26 4">-->
-<!--                            <path id="Line_38" d="M 0 0 L 26 0">-->
-<!--                            </path>-->
-<!---->
-<!--                        </svg>-->
-<!--                    </a>-->
-<!---->
-<!--                        <svg class="Line_39" viewBox="0 0 26 4">-->
-<!--                            <path id="Line_39" d="M 0 0 L 26 0">-->
-<!--                            </path>-->
-<!--                        </svg>-->
-<!---->
-<!--                </div>-->
-            </div>
+            <!--            <div id="Group_3441">-->
+            <!--                <a href="">-->
+            <!--                    <svg class="Rectangle_1769">-->
+            <!--                        <rect id="Rectangle_1769" rx="0" ry="0" x="0" y="0" width="45" height="45">-->
+            <!--                        </rect>-->
+            <!--                    </svg>-->
+            <!--                </a>-->
+            <!--                <div id="Group_3440">-->
+            <!--                    <a href="">-->
+            <!--                        <svg class="Line_38" viewBox="0 0 26 4">-->
+            <!--                            <path id="Line_38" d="M 0 0 L 26 0">-->
+            <!--                            </path>-->
+            <!---->
+            <!--                        </svg>-->
+            <!--                    </a>-->
+            <!---->
+            <!--                        <svg class="Line_39" viewBox="0 0 26 4">-->
+            <!--                            <path id="Line_39" d="M 0 0 L 26 0">-->
+            <!--                            </path>-->
+            <!--                        </svg>-->
+            <!---->
+            <!--                </div>-->
         </div>
-        <svg class="Path_2519" viewBox="0 10 1 1">
-            <path id="Path_2519" d="M 0 10">
-            </path>
-        </svg>
     </div>
-<!--    <img id="Senza_titolo-3_Tavola_disegno_" src="images/Senza_titolo-3_Tavola_disegno_.png"-->
-         srcset="images/Senza_titolo-3_Tavola_disegno_.pimages/Senza_titolo-3_Tavola_disegno_@2x.png@2x.png 2x">
-
-    <svg class="Path_2516" viewBox="0 0 241.248 660.516">
-        <path id="Path_2516"
-              d="M 21 0 L 220 0 C 231.5979766845703 0 241 9.402019500732422 241 21 L 241.2481689453125 639.51611328125 C 241.2481689453125 651.1140747070313 231.8461608886719 660.51611328125 220.2481689453125 660.51611328125 L 116.811767578125 660.51611328125 L 21.24817657470703 660.51611328125 C 9.650196075439453 660.51611328125 0.2481765747070313 651.1140747070313 0.2481765747070313 639.51611328125 L 0 21 C 0 9.402019500732422 9.402019500732422 0 21 0 Z">
+    <svg class="Path_2519" viewBox="0 10 1 1">
+        <path id="Path_2519" d="M 0 10">
         </path>
     </svg>
+</div>
+<!--    <img id="Senza_titolo-3_Tavola_disegno_" src="images/Senza_titolo-3_Tavola_disegno_.png"-->
+srcset="images/Senza_titolo-3_Tavola_disegno_.pimages/Senza_titolo-3_Tavola_disegno_@2x.png@2x.png 2x">
+
+<svg class="Path_2516" viewBox="0 0 241.248 660.516">
+    <path id="Path_2516"
+          d="M 21 0 L 220 0 C 231.5979766845703 0 241 9.402019500732422 241 21 L 241.2481689453125 639.51611328125 C 241.2481689453125 651.1140747070313 231.8461608886719 660.51611328125 220.2481689453125 660.51611328125 L 116.811767578125 660.51611328125 L 21.24817657470703 660.51611328125 C 9.650196075439453 660.51611328125 0.2481765747070313 651.1140747070313 0.2481765747070313 639.51611328125 L 0 21 C 0 9.402019500732422 9.402019500732422 0 21 0 Z">
+    </path>
+</svg>
 <!--    <div id="Group_3443_jt">-->
-        <svg class="Path_2509_ju" viewBox="0 0 241 76">
-            <path id="Path_2509_ju" d="M 0 0 L 241 0 L 241 76 L 0 76 L 0 0 Z">
-            </path>
+<svg class="Path_2509_ju" viewBox="0 0 241 76">
+    <path id="Path_2509_ju" d="M 0 0 L 241 0 L 241 76 L 0 76 L 0 0 Z">
+    </path>
+</svg>
+<div id="ID0_jv">
+    <span>0</span>
+    <!--        </div>-->
+    <div id="Group_3442_jw">
+        <a href="">
+            <svg class="Rectangle_1768_jx">
+                <rect id="Rectangle_1768_jx" rx="0" ry="0" x="0" y="0" width="45" height="45">
+                </rect>
+            </svg>
+        </a>
+        <a href="">
+            <svg class="Line_37_jy" viewBox="0 0 26 4">
+                <path id="Line_37_jy" d="M 0 0 L 26 0">
+                </path>
+            </svg>
+        </a>
+    </div>
+    <div id="Group_3441_jz">
+        <svg class="Rectangle_1769_j">
+            <rect id="Rectangle_1769_j" rx="0" ry="0" x="0" y="0" width="45" height="45">
+            </rect>
         </svg>
-        <div id="ID0_jv">
-            <span>0</span>
-<!--        </div>-->
-        <div id="Group_3442_jw">
-            <a href="">
-                <svg class="Rectangle_1768_jx">
-                    <rect id="Rectangle_1768_jx" rx="0" ry="0" x="0" y="0" width="45" height="45">
-                    </rect>
+        <a href="">
+            <div id="Group_3440_j">
+                <svg class="Line_38_j" viewBox="0 0 26 4">
+                    <path id="Line_38_j" d="M 0 0 L 26 0">
+                    </path>
                 </svg>
-            </a>
+                <svg class="Line_39_j" viewBox="0 0 26 4">
+                    <path id="Line_39_j" d="M 0 0 L 26 0">
+                    </path>
+                </svg>
+            </div>
+        </a>
+    </div>
+
+</div>
+<!--    <img id="WhatsApp_Image_2020-11-28_at_5" src="images/WhatsApp_Image_2020-11-28_at_5.png"-->
+<!--         srcset="images/WhatsApp_Image_2020-11-28_at_5.pimages/WhatsApp_Image_2020-11-28_at_5@2x.png@2x.png 2x">-->
+
+<svg class="Path_2515" viewBox="0 0 241.26 658.368">
+    <path id="Path_2515"
+          d="M 21 0 L 220 0 C 231.5979766845703 0 241 9.402019500732422 241 21 L 241.2603759765625 637.36767578125 C 241.2603759765625 648.9656372070313 231.8583526611328 658.36767578125 220.2603759765625 658.36767578125 L 119.888671875 658.36767578125 L 21.2603759765625 658.36767578125 C 9.662395477294922 658.36767578125 0.2603759765625 648.9656372070313 0.2603759765625 637.36767578125 L 0 21 C 0 9.402019500732422 9.402019500732422 0 21 0 Z">
+    </path>
+</svg>
+<!--    <div id="Group_3443_j">-->
+<svg class="Path_2509_j" viewBox="0 0 241 76">
+    <path id="Path_2509_j" d="M 0 0 L 241 0 L 241 76 L 0 76 L 0 0 Z">
+    </path>
+</svg>
+<div id="ID0_j">
+    <span>0</span>
+    <!--        </div>-->
+    <!--        <div id="Group_3442_j">-->
+    <!--                <svg class="Rectangle_1768_ka">-->
+    <!--                    <rect id="Rectangle_1768_ka" rx="0" ry="0" x="0" y="0" width="45" height="45">-->
+    <!--                    </rect>-->
+    <!--                </svg>-->
+    <!---->
+    <!---->
+    <!--                <svg class="Line_37_kb" viewBox="0 0 26 4">-->
+    <!--                    <path id="Line_37_kb" d="M 0 0 L 26 0">-->
+    <!--                    </path>-->
+    <!--                </svg>-->
+    <!---->
+    <!--        </div>-->
+    <div id="Group_3441_kc">
+
+        <svg class="Rectangle_1769_kd">
+            <rect id="Rectangle_1769_kd" rx="0" ry="0" x="0" y="0" width="45" height="45">
+            </rect>
+        </svg>
+
+        <div id="Group_3440_ke">
+            <svg class="Line_38_kf" viewBox="0 0 26 4">
+                <path id="Line_38_kf" d="M 0 0 L 26 0">
+                </path>
+            </svg>
+
+            <svg class="Line_39_kg" viewBox="0 0 26 4">
+                <path id="Line_39_kg" d="M 0 0 L 26 0">
+                </path>
+            </svg>
+        </div>
+
+    </div>
+</div>
+<!--    <img id="Senza_titolo-3_Tavola_disegno__kh" src="images/Senza_titolo-3_Tavola_disegno__kh.png"-->
+srcset="images/Senza_titolo-3_Tavola_disegno__kh.pimages/Senza_titolo-3_Tavola_disegno__kh@2x.png@2x.png 2x">
+
+<div id="Group_3453">
+    <svg class="Rectangle_1771">
+        <rect id="Rectangle_1771" rx="21" ry="21" x="0" y="0" width="241" height="660">
+        </rect>
+    </svg>
+    <!--        <div id="Group_3443_kk">-->
+    <svg class="Path_2509_kl" viewBox="0 0 241 76">
+        <path id="Path_2509_kl" d="M 0 0 L 241 0 L 241 76 L 0 76 L 0 0 Z">
+        </path>
+    </svg>
+    <!--            <div id="ID0_km">-->
+    <!--                <span>0</span>-->
+    <!--            </div>-->
+    <!--            <div id="Group_3442_kn">-->
+    <!---->
+    <!--                    <svg class="Rectangle_1768_ko">-->
+    <!--                        <rect id="Rectangle_1768_ko" rx="0" ry="0" x="0" y="0" width="45" height="45">-->
+    <!--                        </rect>-->
+    <!--                    </svg>-->
+    <!---->
+    <!--                    <svg class="Line_37_kp" viewBox="0 0 26 4">-->
+    <!--                        <path id="Line_37_kp" d="M 0 0 L 26 0">-->
+    <!--                        </path>-->
+    <!--                    </svg>-->
+    <!---->
+    <!--            </div>-->
+    <div id="Group_3441_kq">
+
+        <!--                    <svg class="Rectangle_1769_kr">-->
+        <!--                        <rect id="Rectangle_1769_kr" rx="0" ry="0" x="0" y="0" width="45" height="45">-->
+        <!--                        </rect>-->
+        <!--                    </svg>-->
+
+        <div id="Group_3440_ks">
+
+            <svg class="Line_38_kt" viewBox="0 0 26 4">
+                <path id="Line_38_kt" d="M 0 0 L 26 0">
+                </path>
+
+            </svg>
+
             <a href="">
-                <svg class="Line_37_jy" viewBox="0 0 26 4">
-                    <path id="Line_37_jy" d="M 0 0 L 26 0">
+                <svg class="Line_39_ku" viewBox="0 0 26 4">
+                    <path id="Line_39_ku" d="M 0 0 L 26 0">
                     </path>
                 </svg>
             </a>
         </div>
-        <div id="Group_3441_jz">
-            <svg class="Rectangle_1769_j">
-                <rect id="Rectangle_1769_j" rx="0" ry="0" x="0" y="0" width="45" height="45">
-                </rect>
-            </svg>
-            <a href="">
-                <div id="Group_3440_j">
-                    <svg class="Line_38_j" viewBox="0 0 26 4">
-                        <path id="Line_38_j" d="M 0 0 L 26 0">
-                        </path>
-                    </svg>
-                    <svg class="Line_39_j" viewBox="0 0 26 4">
-                        <path id="Line_39_j" d="M 0 0 L 26 0">
-                        </path>
-                    </svg>
-                </div>
-            </a>
-        </div>
-
+        </a>
     </div>
-<!--    <img id="WhatsApp_Image_2020-11-28_at_5" src="images/WhatsApp_Image_2020-11-28_at_5.png"-->
-<!--         srcset="images/WhatsApp_Image_2020-11-28_at_5.pimages/WhatsApp_Image_2020-11-28_at_5@2x.png@2x.png 2x">-->
-
-    <svg class="Path_2515" viewBox="0 0 241.26 658.368">
-        <path id="Path_2515"
-              d="M 21 0 L 220 0 C 231.5979766845703 0 241 9.402019500732422 241 21 L 241.2603759765625 637.36767578125 C 241.2603759765625 648.9656372070313 231.8583526611328 658.36767578125 220.2603759765625 658.36767578125 L 119.888671875 658.36767578125 L 21.2603759765625 658.36767578125 C 9.662395477294922 658.36767578125 0.2603759765625 648.9656372070313 0.2603759765625 637.36767578125 L 0 21 C 0 9.402019500732422 9.402019500732422 0 21 0 Z">
-        </path>
-    </svg>
-<!--    <div id="Group_3443_j">-->
-        <svg class="Path_2509_j" viewBox="0 0 241 76">
-            <path id="Path_2509_j" d="M 0 0 L 241 0 L 241 76 L 0 76 L 0 0 Z">
-            </path>
-        </svg>
-        <div id="ID0_j">
-            <span>0</span>
-<!--        </div>-->
-<!--        <div id="Group_3442_j">-->
-<!--                <svg class="Rectangle_1768_ka">-->
-<!--                    <rect id="Rectangle_1768_ka" rx="0" ry="0" x="0" y="0" width="45" height="45">-->
-<!--                    </rect>-->
-<!--                </svg>-->
-<!---->
-<!---->
-<!--                <svg class="Line_37_kb" viewBox="0 0 26 4">-->
-<!--                    <path id="Line_37_kb" d="M 0 0 L 26 0">-->
-<!--                    </path>-->
-<!--                </svg>-->
-<!---->
-<!--        </div>-->
-        <div id="Group_3441_kc">
-
-                <svg class="Rectangle_1769_kd">
-                    <rect id="Rectangle_1769_kd" rx="0" ry="0" x="0" y="0" width="45" height="45">
-                    </rect>
-                </svg>
-
-                <div id="Group_3440_ke">
-                    <svg class="Line_38_kf" viewBox="0 0 26 4">
-                        <path id="Line_38_kf" d="M 0 0 L 26 0">
-                        </path>
-                    </svg>
-
-                    <svg class="Line_39_kg" viewBox="0 0 26 4">
-                        <path id="Line_39_kg" d="M 0 0 L 26 0">
-                        </path>
-                    </svg>
-                </div>
-
-        </div>
-    </div>
-<!--    <img id="Senza_titolo-3_Tavola_disegno__kh" src="images/Senza_titolo-3_Tavola_disegno__kh.png"-->
-         srcset="images/Senza_titolo-3_Tavola_disegno__kh.pimages/Senza_titolo-3_Tavola_disegno__kh@2x.png@2x.png 2x">
-
-    <div id="Group_3453">
-        <svg class="Rectangle_1771">
-            <rect id="Rectangle_1771" rx="21" ry="21" x="0" y="0" width="241" height="660">
-            </rect>
-        </svg>
-<!--        <div id="Group_3443_kk">-->
-            <svg class="Path_2509_kl" viewBox="0 0 241 76">
-                <path id="Path_2509_kl" d="M 0 0 L 241 0 L 241 76 L 0 76 L 0 0 Z">
-                </path>
-            </svg>
-<!--            <div id="ID0_km">-->
-<!--                <span>0</span>-->
-<!--            </div>-->
-<!--            <div id="Group_3442_kn">-->
-<!---->
-<!--                    <svg class="Rectangle_1768_ko">-->
-<!--                        <rect id="Rectangle_1768_ko" rx="0" ry="0" x="0" y="0" width="45" height="45">-->
-<!--                        </rect>-->
-<!--                    </svg>-->
-<!---->
-<!--                    <svg class="Line_37_kp" viewBox="0 0 26 4">-->
-<!--                        <path id="Line_37_kp" d="M 0 0 L 26 0">-->
-<!--                        </path>-->
-<!--                    </svg>-->
-<!---->
-<!--            </div>-->
-            <div id="Group_3441_kq">
-
-<!--                    <svg class="Rectangle_1769_kr">-->
-<!--                        <rect id="Rectangle_1769_kr" rx="0" ry="0" x="0" y="0" width="45" height="45">-->
-<!--                        </rect>-->
-<!--                    </svg>-->
-
-                    <div id="Group_3440_ks">
-
-                        <svg class="Line_38_kt" viewBox="0 0 26 4">
-                            <path id="Line_38_kt" d="M 0 0 L 26 0">
-                            </path>
-
-                        </svg>
-
-                        <a href="">
-                            <svg class="Line_39_ku" viewBox="0 0 26 4">
-                                <path id="Line_39_ku" d="M 0 0 L 26 0">
-                                </path>
-                            </svg>
-                        </a>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
+</div>
+</div>
 <!--    <img id="Senza_titolo-3_Tavola_disegno__kv" src="images/Senza_titolo-3_Tavola_disegno__kv.png"-->
 <!--         srcset="images/Senza_titolo-3_Tavola_disegno__kv.pimages/Senza_titolo-3_Tavola_disegno__kv@2x.png@2x.png 2x">-->
 
-    <div id="Group_3454">
-        <svg class="Path_2514" viewBox="-0.209 0 241.209 663.549">
-            <path id="Path_2514"
-                  d="M 21 0 L 220 0 C 231.5979766845703 0 241 9.402019500732422 241 21 L 240.791259765625 642.54931640625 C 240.791259765625 654.1472778320313 231.3892364501953 663.54931640625 219.791259765625 663.54931640625 L 127.8477783203125 663.54931640625 L 20.791259765625 663.54931640625 C 9.193279266357422 663.54931640625 -0.208740234375 654.1472778320313 -0.208740234375 642.54931640625 L 0 21 C 0 9.402019500732422 9.402019500732422 0 21 0 Z">
-            </path>
-        </svg>
-<!--        <div id="Group_3443_ky">-->
-            <svg class="Path_2509_kz" viewBox="0 0 241 76">
-                <path id="Path_2509_kz" d="M 0 0 L 241 0 L 241 76 L 0 76 L 0 0 Z">
-                </path>
-            </svg>
-<!--            <div id="ID0_k">-->
-<!--                <span>0</span>-->
-<!--            </div>-->
-<!--            <div id="Group_3442_k">-->
-<!--                <a href="">-->
-<!--                    <svg class="Rectangle_1768_k">-->
-<!--                        <rect id="Rectangle_1768_k" rx="0" ry="0" x="0" y="0" width="45" height="45">-->
-<!--                        </rect>-->
-<!--                    </svg>-->
-<!--                </a>-->
-<!--                <a href="">-->
-<!--                    <svg class="Line_37_k" viewBox="0 0 26 4">-->
-<!--                        <path id="Line_37_k" d="M 0 0 L 26 0">-->
-<!--                        </path>-->
-<!--                    </svg>-->
-<!--                </a>-->
-<!--            </div>-->
-<!--            <div id="Group_3441_k">-->
-<!--                <svg class="Rectangle_1769_k">-->
-<!--                    <rect id="Rectangle_1769_k" rx="0" ry="0" x="0" y="0" width="45" height="45">-->
-<!--                    </rect>-->
-<!--                </svg>-->
-<!---->
-<!--                    <div id="Group_3440_k">-->
-<!--                        <svg class="Line_38_k" viewBox="0 0 26 4">-->
-<!--                            <path id="Line_38_k" d="M 0 0 L 26 0">-->
-<!--                            </path>-->
-<!--                        </svg>-->
-<!--                        <a href="">-->
-<!--                            <svg class="Line_39_k" viewBox="0 0 26 4">-->
-<!--                                <path id="Line_39_k" d="M 0 0 L 26 0">-->
-<!--                                </path>-->
-<!--                            </svg>-->
-<!--                        </a>-->
-<!--                    </div>-->
-<!--                </a>-->
-<!--            </div>-->
-        </div>
-    </div>
+<div id="Group_3454">
+    <svg class="Path_2514" viewBox="-0.209 0 241.209 663.549">
+        <path id="Path_2514"
+              d="M 21 0 L 220 0 C 231.5979766845703 0 241 9.402019500732422 241 21 L 240.791259765625 642.54931640625 C 240.791259765625 654.1472778320313 231.3892364501953 663.54931640625 219.791259765625 663.54931640625 L 127.8477783203125 663.54931640625 L 20.791259765625 663.54931640625 C 9.193279266357422 663.54931640625 -0.208740234375 654.1472778320313 -0.208740234375 642.54931640625 L 0 21 C 0 9.402019500732422 9.402019500732422 0 21 0 Z">
+        </path>
+    </svg>
+    <!--        <div id="Group_3443_ky">-->
+    <svg class="Path_2509_kz" viewBox="0 0 241 76">
+        <path id="Path_2509_kz" d="M 0 0 L 241 0 L 241 76 L 0 76 L 0 0 Z">
+        </path>
+    </svg>
+    <!--            <div id="ID0_k">-->
+    <!--                <span>0</span>-->
+    <!--            </div>-->
+    <!--            <div id="Group_3442_k">-->
+    <!--                <a href="">-->
+    <!--                    <svg class="Rectangle_1768_k">-->
+    <!--                        <rect id="Rectangle_1768_k" rx="0" ry="0" x="0" y="0" width="45" height="45">-->
+    <!--                        </rect>-->
+    <!--                    </svg>-->
+    <!--                </a>-->
+    <!--                <a href="">-->
+    <!--                    <svg class="Line_37_k" viewBox="0 0 26 4">-->
+    <!--                        <path id="Line_37_k" d="M 0 0 L 26 0">-->
+    <!--                        </path>-->
+    <!--                    </svg>-->
+    <!--                </a>-->
+    <!--            </div>-->
+    <!--            <div id="Group_3441_k">-->
+    <!--                <svg class="Rectangle_1769_k">-->
+    <!--                    <rect id="Rectangle_1769_k" rx="0" ry="0" x="0" y="0" width="45" height="45">-->
+    <!--                    </rect>-->
+    <!--                </svg>-->
+    <!---->
+    <!--                    <div id="Group_3440_k">-->
+    <!--                        <svg class="Line_38_k" viewBox="0 0 26 4">-->
+    <!--                            <path id="Line_38_k" d="M 0 0 L 26 0">-->
+    <!--                            </path>-->
+    <!--                        </svg>-->
+    <!--                        <a href="">-->
+    <!--                            <svg class="Line_39_k" viewBox="0 0 26 4">-->
+    <!--                                <path id="Line_39_k" d="M 0 0 L 26 0">-->
+    <!--                                </path>-->
+    <!--                            </svg>-->
+    <!--                        </a>-->
+    <!--                    </div>-->
+    <!--                </a>-->
+    <!--            </div>-->
+</div>
+</div>
 <!--    <img id="Senza_titolo-3_Tavola_disegno__k" src="images/Senza_titolo-3_Tavola_disegno__k.png"-->
 <!--         srcset="images/Senza_titolo-3_Tavola_disegno__k.pimages/Senza_titolo-3_Tavola_disegno__k@2x.png@2x.png 2x">-->
 
-    <svg class="Path_2518" viewBox="0 0 241.26 666.045">
-        <path id="Path_2518"
-              d="M 21 0 L 220 0 C 231.5979766845703 0 241 9.402019500732422 241 21 L 241.2596435546875 645.045166015625 C 241.2596435546875 656.6431274414063 231.8576354980469 666.045166015625 220.2596435546875 666.045166015625 L 118.355712890625 666.045166015625 L 21.25965118408203 666.045166015625 C 9.661670684814453 666.045166015625 0.2596511840820313 656.6431274414063 0.2596511840820313 645.045166015625 L 0.1659727990627289 419.8987426757813 L 0 21 C 0 9.402019500732422 9.402019500732422 0 21 0 Z">
-        </path>
-    </svg>
-    <!--    gareDuNoord starts here-->
-    <form action="../../Includes/add_to_cart.php" method="post">
-        <button type="submit" name="gareDuNoord">
-            <div id="Group_3423_lb">
-                <div id="Group_3422">
+<svg class="Path_2518" viewBox="0 0 241.26 666.045">
+    <path id="Path_2518"
+          d="M 21 0 L 220 0 C 231.5979766845703 0 241 9.402019500732422 241 21 L 241.2596435546875 645.045166015625 C 241.2596435546875 656.6431274414063 231.8576354980469 666.045166015625 220.2596435546875 666.045166015625 L 118.355712890625 666.045166015625 L 21.25965118408203 666.045166015625 C 9.661670684814453 666.045166015625 0.2596511840820313 656.6431274414063 0.2596511840820313 645.045166015625 L 0.1659727990627289 419.8987426757813 L 0 21 C 0 9.402019500732422 9.402019500732422 0 21 0 Z">
+    </path>
+</svg>
+<!--    gareDuNoord starts here-->
+<form action="../../Includes/add_to_cart.php" method="post">
+    <button type="submit" name="gareDuNoord">
+        <div id="Group_3423_lb">
+            <div id="Group_3422">
 
 
-                    <svg class="Path_2493_ld" viewBox="1796.368 -81.234 221.141 53.937">
-                        <path id="Path_2493_ld"
-                              d="M 2017.508666992188 -54.26526641845703 C 2017.508666992188 -46.82441329956055 2013.840698242188 -40.07719039916992 2007.907348632813 -35.19889068603516 C 2001.966430664063 -30.32058715820313 1993.769653320313 -27.29745483398438 1984.712280273438 -27.29745483398438 L 1829.16455078125 -27.29745483398438 C 1821.441162109375 -27.29745483398438 1814.340576171875 -29.49668121337891 1808.731079101563 -33.16847991943359 C 1801.196533203125 -38.11192321777344 1796.367797851563 -45.7280158996582 1796.367797851563 -54.26526641845703 C 1796.367797851563 -61.71345520019531 1800.036865234375 -68.45426177978516 1805.969360351563 -73.33256530761719 C 1811.910034179688 -78.21727752685547 1820.108032226563 -81.23398590087891 1829.16455078125 -81.23398590087891 L 1984.712280273438 -81.23398590087891 C 1990.827270507813 -81.23398590087891 1996.554321289063 -79.85868072509766 2001.453735351563 -77.45852661132813 C 2011.070922851563 -72.76188659667969 2017.508666992188 -64.13288116455078 2017.508666992188 -54.26526641845703 Z">
-                        </path>
-                    </svg>
-                </div>
+                <svg class="Path_2493_ld" viewBox="1796.368 -81.234 221.141 53.937">
+                    <path id="Path_2493_ld"
+                          d="M 2017.508666992188 -54.26526641845703 C 2017.508666992188 -46.82441329956055 2013.840698242188 -40.07719039916992 2007.907348632813 -35.19889068603516 C 2001.966430664063 -30.32058715820313 1993.769653320313 -27.29745483398438 1984.712280273438 -27.29745483398438 L 1829.16455078125 -27.29745483398438 C 1821.441162109375 -27.29745483398438 1814.340576171875 -29.49668121337891 1808.731079101563 -33.16847991943359 C 1801.196533203125 -38.11192321777344 1796.367797851563 -45.7280158996582 1796.367797851563 -54.26526641845703 C 1796.367797851563 -61.71345520019531 1800.036865234375 -68.45426177978516 1805.969360351563 -73.33256530761719 C 1811.910034179688 -78.21727752685547 1820.108032226563 -81.23398590087891 1829.16455078125 -81.23398590087891 L 1984.712280273438 -81.23398590087891 C 1990.827270507813 -81.23398590087891 1996.554321289063 -79.85868072509766 2001.453735351563 -77.45852661132813 C 2011.070922851563 -72.76188659667969 2017.508666992188 -64.13288116455078 2017.508666992188 -54.26526641845703 Z">
+                    </path>
+                </svg>
+            </div>
 
-                <div id="ADD_TO_CART">
+            <div id="ADD_TO_CART">
 
-                    <span>ADD TO CART</span>
-                </div>
+                <span>ADD TO CART</span>
+            </div>
+
+        </div>
+    </button>
+</form>
+<!--    gareDuNoord finishes-->
+
+<!--	rillan and bombardies button add to cart-->
+<form action="../../Includes/add_to_cart.php" method="post">
+    <button type="submit" name="rillanAndBombardies">
+        <div id="Group_13151">
+            <div id="Group_3422_lg">
+
+                <svg class="Path_2493_lh" viewBox="1796.368 -81.234 221.141 53.937">
+                    <path id="Path_2493_lh"
+                          d="M 2017.508666992188 -54.26526641845703 C 2017.508666992188 -46.82441329956055 2013.840698242188 -40.07719039916992 2007.907348632813 -35.19889068603516 C 2001.966430664063 -30.32058715820313 1993.769653320313 -27.29745483398438 1984.712280273438 -27.29745483398438 L 1829.16455078125 -27.29745483398438 C 1821.441162109375 -27.29745483398438 1814.340576171875 -29.49668121337891 1808.731079101563 -33.16847991943359 C 1801.196533203125 -38.11192321777344 1796.367797851563 -45.7280158996582 1796.367797851563 -54.26526641845703 C 1796.367797851563 -61.71345520019531 1800.036865234375 -68.45426177978516 1805.969360351563 -73.33256530761719 C 1811.910034179688 -78.21727752685547 1820.108032226563 -81.23398590087891 1829.16455078125 -81.23398590087891 L 1984.712280273438 -81.23398590087891 C 1990.827270507813 -81.23398590087891 1996.554321289063 -79.85868072509766 2001.453735351563 -77.45852661132813 C 2011.070922851563 -72.76188659667969 2017.508666992188 -64.13288116455078 2017.508666992188 -54.26526641845703 Z">
+                    </path>
+
+                </svg>
 
             </div>
-        </button>
-    </form>
-    <!--    gareDuNoord finishes-->
 
-    <!--	rillan and bombardies button add to cart-->
-    <form action="../../Includes/add_to_cart.php" method="post">
-        <button type="submit" name="rillanAndBombardies">
-            <div id="Group_13151">
-                <div id="Group_3422_lg">
-
-                    <svg class="Path_2493_lh" viewBox="1796.368 -81.234 221.141 53.937">
-                        <path id="Path_2493_lh"
-                              d="M 2017.508666992188 -54.26526641845703 C 2017.508666992188 -46.82441329956055 2013.840698242188 -40.07719039916992 2007.907348632813 -35.19889068603516 C 2001.966430664063 -30.32058715820313 1993.769653320313 -27.29745483398438 1984.712280273438 -27.29745483398438 L 1829.16455078125 -27.29745483398438 C 1821.441162109375 -27.29745483398438 1814.340576171875 -29.49668121337891 1808.731079101563 -33.16847991943359 C 1801.196533203125 -38.11192321777344 1796.367797851563 -45.7280158996582 1796.367797851563 -54.26526641845703 C 1796.367797851563 -61.71345520019531 1800.036865234375 -68.45426177978516 1805.969360351563 -73.33256530761719 C 1811.910034179688 -78.21727752685547 1820.108032226563 -81.23398590087891 1829.16455078125 -81.23398590087891 L 1984.712280273438 -81.23398590087891 C 1990.827270507813 -81.23398590087891 1996.554321289063 -79.85868072509766 2001.453735351563 -77.45852661132813 C 2011.070922851563 -72.76188659667969 2017.508666992188 -64.13288116455078 2017.508666992188 -54.26526641845703 Z">
-                        </path>
-
-                    </svg>
-
-                </div>
-
-                <div id="ADD_TO_CART_li">
-                    <span>ADD TO CART</span>
-                </div>
+            <div id="ADD_TO_CART_li">
+                <span>ADD TO CART</span>
             </div>
-        </button>
-    </form>
-    <!--rillan finishes here-->
+        </div>
+    </button>
+</form>
+<!--rillan finishes here-->
 </div>
 <!--<div id="Group_3443_lj">--> getting rid of useless design stuff so commented this line out-->
-    <svg class="Path_2509_lk" viewBox="0 0 241 76">
-        <path id="Path_2509_lk" d="M 0 0 L 241 0 L 241 76 L 0 76 L 0 0 Z">
-        </path>
-    </svg>
-    <div id="ID0_ll">
-        <span>0</span>
-<!--    </div>-->
+<svg class="Path_2509_lk" viewBox="0 0 241 76">
+    <path id="Path_2509_lk" d="M 0 0 L 241 0 L 241 76 L 0 76 L 0 0 Z">
+    </path>
+</svg>
+<div id="ID0_ll">
+    <span>0</span>
+    <!--    </div>-->
     <div id="Group_3442_lm">
         <a href="">
             <svg class="Rectangle_1768_ln">
@@ -1329,10 +1334,10 @@
     </div>
 </div>
 
-    </svg>
+</svg>
 
 
-    </svg>
+</svg>
 
 <div id="Group_3444">
     <svg class="Rectangle_1764">
@@ -1416,8 +1421,6 @@
             $eventDAL = EventDAL::getInstance();
 
 
-
-
         ?>
         <span>Gare du Nord</span>
     </div>
@@ -1475,7 +1478,8 @@
 <div id="_pd">
     <span>€</span>
 </div>
-<img id="SALMON_PHOTO" src="../../images/SALMON_PHOTO.png" srcset="images/SALMON_PHOTO.pimages/SALMON_PHOTO@2x.png@2x.png 2x">
+<img id="SALMON_PHOTO" src="../../images/SALMON_PHOTO.png"
+     srcset="images/SALMON_PHOTO.pimages/SALMON_PHOTO@2x.png@2x.png 2x">
 
 <div id="HAARLEM_FOOD_TEXT">
     <span>Haarlem Food Festival</span>
@@ -1580,7 +1584,8 @@
 
 </div>
 <div id="Group_3527">
-    <img id="Group_3526" src="../../images/Group_3526.png" srcset="images/Group_3526.pimages/Group_3526@2x.png@2x.png 2x">
+    <img id="Group_3526" src="../../images/Group_3526.png"
+         srcset="images/Group_3526.pimages/Group_3526@2x.png@2x.png 2x">
 
     </svg>
 </div>
@@ -1754,7 +1759,8 @@
     </rect>
 </svg>
 <div id="Group_3306">
-    <img id="Group_3305" src="../../images/Group_3305.png" srcset="images/Group_3305.pimages/Group_3305@2x.png@2x.png 2x">
+    <img id="Group_3305" src="../../images/Group_3305.png"
+         srcset="images/Group_3305.pimages/Group_3305@2x.png@2x.png 2x">
 
     </svg>
 </div>
@@ -1871,17 +1877,20 @@
     <span>Food</span>
 </div>
 <div id="Group_54_sk">
-    <img id="Group_8_sl" src="../../images/Group_8_sl.png" srcset="images/Group_8_sl.pimages/Group_8_sl@2x.png@2x.png 2x">
+    <img id="Group_8_sl" src="../../images/Group_8_sl.png"
+         srcset="images/Group_8_sl.pimages/Group_8_sl@2x.png@2x.png 2x">
 
     </svg>
 </div>
 <div id="Group_56_s">
-    <img id="Group_30_s" src="../../images/Group_30_s.png" srcset="images/Group_30_s.pimages/Group_30_s@2x.png@2x.png 2x">
+    <img id="Group_30_s" src="../../images/Group_30_s.png"
+         srcset="images/Group_30_s.pimages/Group_30_s@2x.png@2x.png 2x">
 
     </svg>
 </div>
 <div id="Group_57_so">
-    <img id="Group_48_sp" src="../../images/Group_48_sp.png" srcset="images/Group_48_sp.pimages/Group_48_sp@2x.png@2x.png 2x">
+    <img id="Group_48_sp" src="../../images/Group_48_sp.png"
+         srcset="images/Group_48_sp.pimages/Group_48_sp@2x.png@2x.png 2x">
 
     </svg>
 </div>
@@ -1930,17 +1939,20 @@
     <span>Food</span>
 </div>
 <div id="Group_54_sk">
-    <img id="Group_8_sl" src="../../images/Group_8_sl.png" srcset="images/Group_8_sl.pimages/Group_8_sl@2x.png@2x.png 2x">
+    <img id="Group_8_sl" src="../../images/Group_8_sl.png"
+         srcset="images/Group_8_sl.pimages/Group_8_sl@2x.png@2x.png 2x">
 
     </svg>
 </div>
 <div id="Group_56_s">
-    <img id="Group_30_s" src="../../images/Group_30_s.png" srcset="images/Group_30_s.pimages/Group_30_s@2x.png@2x.png 2x">
+    <img id="Group_30_s" src="../../images/Group_30_s.png"
+         srcset="images/Group_30_s.pimages/Group_30_s@2x.png@2x.png 2x">
 
     </svg>
 </div>
 <div id="Group_57_so">
-    <img id="Group_48_sp" src="../../images/Group_48_sp.png" srcset="images/Group_48_sp.pimages/Group_48_sp@2x.png@2x.png 2x">
+    <img id="Group_48_sp" src="../../images/Group_48_sp.png"
+         srcset="images/Group_48_sp.pimages/Group_48_sp@2x.png@2x.png 2x">
 
     </svg>
 </div>
@@ -1989,13 +2001,15 @@
     <span>Food</span>
 </div>
 <div id="Group_56_s">
-    <img id="Group_30_s" src="../../images/Group_30_s.png" srcset="images/Group_30_s.pimages/Group_30_s@2x.png@2x.png 2x">
+    <img id="Group_30_s" src="../../images/Group_30_s.png"
+         srcset="images/Group_30_s.pimages/Group_30_s@2x.png@2x.png 2x">
 
     </svg>
 </div>
 <a href="">
     <div id="Group_57_s">
-        <img id="Group_48_s" src="../../images/Group_48_s.png" srcset="images/Group_48_s.pimages/Group_48_s@2x.png@2x.png 2x">
+        <img id="Group_48_s" src="../../images/Group_48_s.png"
+             srcset="images/Group_48_s.pimages/Group_48_s@2x.png@2x.png 2x">
 
         </svg>
     </div>

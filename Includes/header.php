@@ -1,7 +1,3 @@
-<?php
-    session_start();
-    ?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,9 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>firstPage – 7</title>
 
-    <script id="applicationScript" type="text/javascript" src="images/script.js"></script>
+<!--    <script id="applicationScript" type="text/javascript" src="script.js"></script>-->
 
-    <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="style.css"/>
+    <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="../UI/Jazz/jazzstyle.css"/>
 
 </head>
 <body>
+
+<nav>
+    <li>
+        <a href="">
+            Home
+        </a>
+    </li>
+    <li>
+        <a href="">
+            Jazz
+        </a>
+    </li>
+    <li>
+        <a href="">
+            Dance
+        </a>
+    </li>
+    <li>
+        <a href="">
+            Food
+        </a>
+    </li>
+</nav>
