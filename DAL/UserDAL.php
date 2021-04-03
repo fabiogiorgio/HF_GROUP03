@@ -27,7 +27,7 @@
                 die("Connection failed: " . mysqli_connect_error());
             }
 
-            $slq = "INSERT INTO Users (Usersemail, Userspassword) VALUES (?, ?, ?, ?, ?, ?);";
+            $slq = "INSERT INTO Users (fullName, email, phoneNumber, login, password, role) VALUES (?, ?, ?, ?, ?, ?);";
             $stmt = mysqli_stmt_init($conn);
             if(!mysqli_stmt_prepare($stmt, $slq)){
                 header("location: ../signup.php?error=stmtfailed");

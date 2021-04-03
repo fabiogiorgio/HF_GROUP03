@@ -45,7 +45,8 @@ if (isset($_POST["submit"])){
 
 
 
-
+    $firstName = $_POST["firstName"];
+    $lastName = ["lastName"];
     $email = $_POST["email"];
     $password = $_POST["password"];
 
