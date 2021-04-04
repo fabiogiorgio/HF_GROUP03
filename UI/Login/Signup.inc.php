@@ -1,5 +1,5 @@
 <?php
-require_once '../../DAL/UserDAL.php';
+include_once '../../DAL/UserDAL.php';
 
 if (isset($_POST["submit"])){
     $DbServername = "server.infhaarlem.nl";
