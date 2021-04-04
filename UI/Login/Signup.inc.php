@@ -1,4 +1,5 @@
 <?php
+
 if (isset($_POST["submit"])){
     $DbServername = "server.infhaarlem.nl";
     $DbUsername = "s644748_HfDB";
@@ -10,7 +11,7 @@ if (isset($_POST["submit"])){
     if (!$conn){
         die("Connection failed: " . mysqli_connect_error());
     }
-
+    require_once '../../DAL/UserDAL.php';
 
     $firstName = $_POST["firstName"];
     $lastName = $_POST["lastName"];
@@ -18,33 +19,12 @@ if (isset($_POST["submit"])){
     $loginName = $_POST["loginName"];
     $password = $_POST["password"];
     $repeatPassword = $_POST["repeatPassword"];
+    $role = $_POST["role"];
 
-    require_once 'UserDAL.php';
-    //check if all the fields are filled
-    if (emptuInputSingup($email, $password, $repeatPassword) !== false){
-        header("location: ../Signup.php?error=emptyinput");
-        exit();
-    }
-    //check if the email is valid
-    if (invalidEmail($email) !== false){
-        header("location: ../Signup.php?error=invalidemail");
-        exit();
-    }
-    //check if password and the repeat password match
-    if (passwordMatch($password, $repeatPassword) !== false){
-        header("location: ../Signup.php?error=passwordsdontmatch");
-        exit();
-    }
-    //check if this email already exists in the database
-    if (emailExists($conn, $email) !== false){
-        header("location: ../Signup.php?error=emailalreadyexists");
-        exit();
-    }
-    //check this very hard captcha :))))))
-    if ($_POST["captcha"] == 'Y8KV'){
-        createUser($conn, $email, $password);
-        header("location: ../Login.php");
-    }
+
+    createUser($conn, $firstName, $lastName, $email, $loginName, $password, $repeatPassword, $role);
+    echo("Success!!!!");
+
 
 }
 else{

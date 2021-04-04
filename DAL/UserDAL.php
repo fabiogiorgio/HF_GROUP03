@@ -1,11 +1,6 @@
 <?php
-    session_start();
-    require_once '../includes/credentials.php';
-
     class UserDAL
     {
-        private static $instance = null;
-        private $conn = null;
 
         private function __construct()
         {
@@ -14,7 +9,7 @@
 
         }
 
-        function createUser($conn, $firstName, $lastName, $email, $phoneNumber, $loginName, $password, $role){
+        public function createUser($conn, $firstName, $lastName, $email, $phoneNumber, $loginName, $password, $role){
 
             $DbServername = "server.infhaarlem.nl";
             $DbUsername = "s644748_HfDB";
@@ -30,7 +25,7 @@
             $slq = "INSERT INTO Users (fullName, email, phoneNumber, login, password, role) VALUES (?, ?, ?, ?, ?, ?);";
             $stmt = mysqli_stmt_init($conn);
             if(!mysqli_stmt_prepare($stmt, $slq)){
-                header("location: ../signup.php?error=stmtfailed");
+                header("location: ../Signup.php?error=stmtfailed");
                 exit();
             }
 
@@ -44,7 +39,7 @@
             exit();
         }
 
-        function emailExists($conn, $email){
+        public function emailExists($conn, $email){
             $slq = "SELECT * FROM Users WHERE Usersemail = ?;";
             $stmt = mysqli_stmt_init($conn);
             if(!mysqli_stmt_prepare($stmt, $slq)){
