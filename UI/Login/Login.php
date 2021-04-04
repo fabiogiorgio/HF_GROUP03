@@ -17,18 +17,6 @@
 <button type="submit" name="resetPassword">Reset Password </button>
 <br> <br>
 </form>
-<?php
-
-if (isset($_GET["error"])){
-    if ($_GET["error"] == "emptyinput"){
-        echo "Fill in all fields.";
-    }
-    else if($_GET["error"] == "wronglogin"){
-        echo "Incorrect login information.";
-    }
-}
-
-?>
 </section>
 </body>
 </html>
