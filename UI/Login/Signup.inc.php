@@ -1,4 +1,5 @@
 <?php
+require_once '../../DAL/UserDAL.php';
 
 if (isset($_POST["submit"])){
     $DbServername = "server.infhaarlem.nl";
@@ -11,7 +12,7 @@ if (isset($_POST["submit"])){
     if (!$conn){
         die("Connection failed: " . mysqli_connect_error());
     }
-    require_once '../../DAL/UserDAL.php';
+
 
     $firstName = $_POST["firstName"];
     $lastName = $_POST["lastName"];
