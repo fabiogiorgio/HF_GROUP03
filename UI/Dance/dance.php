@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8"/>
@@ -5,16 +6,3174 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Haarlem Festival Dance Event</title>
     <style id="applicationStylesheet" type="text/css">
+        .mediaViewInfo {
+            --web-view-name: Dance Event;
+            --web-view-id: Dance_Event;
+            --web-scale-on-resize: true;
+            --web-center-horizontally: true;
+            --web-enable-deep-linking: true;
+        }
+        :root {
+            --web-view-ids: Dance_Event;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            border: none;
+        }
+        #Dance_Event {
+            position: absolute;
+            width: 1915px;
+            height: 3969px;
+            background-color: rgba(255,255,255,1);
+            overflow: hidden;
+            --web-view-name: Dance Event;
+            --web-view-id: Dance_Event;
+            --web-scale-on-resize: true;
+            --web-center-horizontally: true;
+            --web-enable-deep-linking: true;
+        }
+        @keyframes fadein {
+
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+
+        }
+        @keyframes fadein {
+
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+
+        }
+        @keyframes fadein {
+
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+
+        }
+        @keyframes fadein {
+
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+
+        }
+        @keyframes fadein {
+
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+
+        }
+        @keyframes fadein {
+
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+
+        }
+        @keyframes fadein {
+
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+
+        }
+        @keyframes fadein {
+
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+
+        }
+        @keyframes fadein {
+
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+
+        }
+        @keyframes fadein {
+
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+
+        }
+        @keyframes fadein {
+
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+
+        }
+        @keyframes fadein {
+
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+
+        }
+        @keyframes fadein {
+
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+
+        }
+        #FOOTER {
+            position: absolute;
+            width: 1920px;
+            height: 155px;
+            left: 0px;
+            top: 3817px;
+            overflow: visible;
+        }
+        #Footer_Backgr {
+            fill: rgba(0,78,212,1);
+        }
+        .Footer_Backgr {
+            position: absolute;
+            overflow: visible;
+            width: 1920px;
+            height: 155px;
+            left: 0px;
+            top: 0px;
+        }
+        #Social_Media_Icon {
+            position: absolute;
+            width: 386px;
+            height: 62.068px;
+            left: 1243px;
+            top: 50px;
+            overflow: visible;
+        }
+        #Contact_Us {
+            left: 959px;
+            top: 41px;
+            position: absolute;
+            overflow: visible;
+            width: 232px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Apolline;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 48px;
+            color: rgba(255,255,255,1);
+        }
+        #Policies {
+            left: 795px;
+            top: 41px;
+            position: absolute;
+            overflow: visible;
+            width: 157px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Apolline;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 48px;
+            color: rgba(255,255,255,1);
+        }
+        #About_Us {
+            left: 577px;
+            top: 41px;
+            position: absolute;
+            overflow: visible;
+            width: 198px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Apolline;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 48px;
+            color: rgba(255,255,255,1);
+        }
+        #_Haarlem_Festival {
+            left: 328px;
+            top: 63px;
+            position: absolute;
+            overflow: visible;
+            width: 200px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Source Sans Variable;
+            font-style: normal;
+            font-weight: lighter;
+            font-size: 25px;
+            color: rgba(255,255,255,1);
+        }
+        #PERSONAL {
+            position: absolute;
+            width: 1920px;
+            height: 1009px;
+            left: 0px;
+            top: 2805px;
+            overflow: visible;
+        }
+        #Rectangle_78 {
+            fill: rgba(245,245,245,1);
+        }
+        .Rectangle_78 {
+            position: absolute;
+            overflow: visible;
+            width: 1920px;
+            height: 1009px;
+            left: 0px;
+            top: 0px;
+        }
+        #Follow {
+            position: absolute;
+            width: 709px;
+            height: 880.734px;
+            left: 981px;
+            top: 62px;
+            overflow: visible;
+        }
+        #SocialMedia {
+            position: absolute;
+            width: 440px;
+            height: 183.648px;
+            left: 134px;
+            top: 697.085px;
+            overflow: visible;
+        }
+        #FollowUs {
+            position: absolute;
+            width: 397px;
+            height: 197.689px;
+            left: 155px;
+            top: 481.641px;
+            overflow: visible;
+        }
+        #Never_miss_an_update_catch_all {
+            filter: blur(50px);
+            left: 0px;
+            top: 452px;
+            position: absolute;
+            overflow: visible;
+            width: 710px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Book Antiqua;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 37px;
+            color: rgba(0,78,212,1);
+        }
+        #Map {
+            position: absolute;
+            width: 670px;
+            height: 320px;
+            left: 34px;
+            top: 91px;
+            overflow: visible;
+        }
+        #MapIcon {
+            position: absolute;
+            width: 670px;
+            height: 320px;
+            left: 34px;
+            top: 91px;
+            overflow: visible;
+        }
+        #Locations_where_fun_is_happeni {
+            filter: blur(50px);
+            left: 72px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 566px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Book Antiqua;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 37px;
+            color: rgba(0,78,212,1);
+        }
+        #Create_Schedule {
+            position: absolute;
+            width: 606px;
+            height: 881px;
+            left: 298px;
+            top: 62px;
+            overflow: visible;
+        }
+        #Rectangle_1410 {
+            fill: rgba(255,238,0,1);
+        }
+        .Rectangle_1410 {
+            filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.161));
+            position: absolute;
+            overflow: visible;
+            width: 620px;
+            height: 94px;
+            left: 2px;
+            top: 805px;
+        }
+        #CREATE_YOUR_PROGRAMME {
+            left: 22px;
+            top: 815px;
+            position: absolute;
+            overflow: visible;
+            width: 563px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Source Sans Variable;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 42px;
+            color: rgba(0,78,212,1);
+        }
+        #Arrange_all_your_tickets_plan_ {
+            left: 0px;
+            top: 621px;
+            position: absolute;
+            overflow: visible;
+            width: 607px;
+            white-space: nowrap;
+            text-align: center;
+            font-family: Source Sans Variable;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(1,1,1,1);
+        }
+        #Schedule_Image {
+            position: absolute;
+            width: 542px;
+            height: 506.061px;
+            left: 32px;
+            top: 91.303px;
+            overflow: visible;
+        }
+        #Stay_on_top_of_your_schedule {
+            filter: blur(50px);
+            left: 63px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 481px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Book Antiqua;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 37px;
+            color: rgba(0,78,212,1);
+        }
+        #ALL_ACCESS_PASS {
+            position: absolute;
+            width: 1920px;
+            height: 299.371px;
+            left: 0px;
+            top: 2529.631px;
+            overflow: visible;
+        }
+        #Rectangle_3951 {
+            fill: rgba(0,77,210,1);
+        }
+        .Rectangle_3951 {
+            position: absolute;
+            overflow: visible;
+            width: 1706px;
+            height: 275px;
+            left: 0px;
+            top: 0.369px;
+        }
+        #DONT_MISS_OUT {
+            position: absolute;
+            width: 423px;
+            height: 184px;
+            left: 927px;
+            top: 32.369px;
+            overflow: visible;
+        }
+        #GET_IT_NOW_BUTTON {
+            position: absolute;
+            width: 286px;
+            height: 54px;
+            left: 0px;
+            top: 130px;
+            overflow: visible;
+            --web-animation: fadein 0.3s ease-out;
+            --web-action-type: page;
+            --web-action-target: 27th_July___All_Access_Pass_in_Cart.html;
+            cursor: pointer;
+        }
+        #Rectangle_1515 {
+            fill: rgba(255,238,0,1);
+            stroke: rgba(112,112,112,1);
+            stroke-width: 1px;
+            stroke-linejoin: miter;
+            stroke-linecap: butt;
+            stroke-miterlimit: 4;
+            shape-rendering: auto;
+        }
+        .Rectangle_1515 {
+            filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.769));
+            position: absolute;
+            overflow: visible;
+            width: 304px;
+            height: 72px;
+            left: 0px;
+            top: 0px;
+        }
+        #GET_IT_NOW {
+            left: 66px;
+            top: 9px;
+            position: absolute;
+            overflow: visible;
+            width: 154px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Source Sans Variable;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 28px;
+            color: rgba(0,78,212,1);
+        }
+        #All_Access_for_The_Event {
+            left: 3px;
+            top: 65px;
+            position: absolute;
+            overflow: visible;
+            width: 349px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Avenir;
+            font-style: normal;
+            font-weight: lighter;
+            font-size: 35px;
+            color: rgba(255,255,255,1);
+        }
+        #Dont_Miss_Out {
+            left: 3px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 421px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Segoe UI;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 54px;
+            color: rgba(255,255,255,1);
+        }
+        #All_Acess_Banner_Quote {
+            position: absolute;
+            width: 664px;
+            height: 219px;
+            left: 0px;
+            top: 26.369px;
+            overflow: visible;
+        }
+        #Group_13162 {
+            position: absolute;
+            width: 299.574px;
+            height: 48px;
+            left: 357.426px;
+            top: 171px;
+            overflow: visible;
+        }
+        #Deal_of_the_Day {
+            left: 43.574px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 257px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Segoe UI;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            color: rgba(255,238,0,1);
+        }
+        #Path_2503 {
+            fill: rgba(255,238,0,1);
+        }
+        .Path_2503 {
+            overflow: visible;
+            position: absolute;
+            width: 34.801px;
+            height: 34.801px;
+            left: 0px;
+            top: 6.723px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #Path_2504 {
+            fill: rgba(255,238,0,1);
+        }
+        .Path_2504 {
+            overflow: visible;
+            position: absolute;
+            width: 17.322px;
+            height: 10.901px;
+            left: 9.29px;
+            top: 19.262px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #Group_13161 {
+            position: absolute;
+            width: 270.574px;
+            height: 48px;
+            left: 357.426px;
+            top: 114px;
+            overflow: visible;
+        }
+        #Huge_Savings {
+            left: 44.574px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 227px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Segoe UI;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            color: rgba(255,238,0,1);
+        }
+        #Path_2503_ej {
+            fill: rgba(255,238,0,1);
+        }
+        .Path_2503_ej {
+            overflow: visible;
+            position: absolute;
+            width: 34.801px;
+            height: 34.801px;
+            left: 0px;
+            top: 1.723px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #Path_2504_ek {
+            fill: rgba(255,238,0,1);
+        }
+        .Path_2504_ek {
+            overflow: visible;
+            position: absolute;
+            width: 17.322px;
+            height: 10.901px;
+            left: 9.29px;
+            top: 14.262px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #Group_13160 {
+            position: absolute;
+            width: 272.37px;
+            height: 48px;
+            left: 355.63px;
+            top: 57px;
+            overflow: visible;
+        }
+        #To_Any_Venue {
+            left: 46.37px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 227px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Segoe UI;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            color: rgba(255,238,0,1);
+        }
+        #Path_2503_en {
+            fill: rgba(255,238,0,1);
+        }
+        .Path_2503_en {
+            overflow: visible;
+            position: absolute;
+            width: 34.801px;
+            height: 34.801px;
+            left: 0px;
+            top: 5.723px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #Path_2504_eo {
+            fill: rgba(255,238,0,1);
+        }
+        .Path_2504_eo {
+            overflow: visible;
+            position: absolute;
+            width: 17.322px;
+            height: 10.901px;
+            left: 9.29px;
+            top: 18.262px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #Group_13159 {
+            position: absolute;
+            width: 308.37px;
+            height: 48px;
+            left: 355.63px;
+            top: 0px;
+            overflow: visible;
+        }
+        #Enjoy_Any_Show {
+            left: 45.37px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 264px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Segoe UI;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            color: rgba(255,238,0,1);
+        }
+        #Path_2503_er {
+            fill: rgba(255,238,0,1);
+        }
+        .Path_2503_er {
+            overflow: visible;
+            position: absolute;
+            width: 34.801px;
+            height: 34.801px;
+            left: 0px;
+            top: 10.723px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #Path_2504_es {
+            fill: rgba(255,238,0,1);
+        }
+        .Path_2504_es {
+            overflow: visible;
+            position: absolute;
+            width: 17.322px;
+            height: 10.901px;
+            left: 9.29px;
+            top: 23.262px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #Arrow_Icon {
+            position: absolute;
+            width: 373.52px;
+            height: 165.042px;
+            left: 0px;
+            top: 28px;
+            overflow: visible;
+        }
+        #Line_43 {
+            fill: transparent;
+            stroke: rgba(255,241,38,1);
+            stroke-width: 75px;
+            stroke-linejoin: miter;
+            stroke-linecap: butt;
+            stroke-miterlimit: 10;
+            shape-rendering: auto;
+        }
+        .Line_43 {
+            overflow: visible;
+            position: absolute;
+            width: 259.5px;
+            height: 75px;
+            left: 0px;
+            top: 82.5px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #Group_3467 {
+            position: absolute;
+            width: 142.91px;
+            height: 165.042px;
+            left: 230.61px;
+            top: 0px;
+            overflow: visible;
+        }
+        #Path_2511 {
+            fill: rgba(255,241,38,1);
+        }
+        .Path_2511 {
+            overflow: visible;
+            position: absolute;
+            width: 142.91px;
+            height: 165.042px;
+            left: 0px;
+            top: 0px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #All_Acess_Price {
+            position: absolute;
+            width: 662.727px;
+            height: 299.371px;
+            left: 1257.273px;
+            top: 0px;
+            overflow: visible;
+        }
+        #Mask_Group_30 {
+            mix-blend-mode: normal;
+            position: absolute;
+            width: 662.727px;
+            height: 299.371px;
+            left: 0px;
+            top: 0px;
+            overflow: visible;
+        }
+        #ID00 {
+            left: 394.727px;
+            top: 135.369px;
+            position: absolute;
+            overflow: visible;
+            width: 55px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 42px;
+            color: rgba(255,255,255,1);
+            letter-spacing: -0.5px;
+        }
+        #ID250 {
+            left: 214.727px;
+            top: 118.369px;
+            position: absolute;
+            overflow: visible;
+            width: 207px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 107px;
+            color: rgba(255,255,255,1);
+            letter-spacing: -0.5px;
+        }
+        # {
+            left: 139.727px;
+            top: 134.369px;
+            position: absolute;
+            overflow: visible;
+            width: 96px;
+            white-space: nowrap;
+            text-align: center;
+            font-family: Segoe UI;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 81px;
+            color: rgba(255,255,255,1);
+        }
+        #TICKET_LIST {
+            position: absolute;
+            width: 1920px;
+            height: 950px;
+            left: 0px;
+            top: 1580px;
+            overflow: visible;
+        }
+        #Table {
+            position: absolute;
+            width: 1920px;
+            height: 950px;
+            left: 0px;
+            top: 0px;
+            overflow: visible;
+        }
+        #Ticket__Backgr {
+            opacity: 0.14;
+            fill: rgba(137,120,227,1);
+        }
+        .Ticket__Backgr {
+            position: absolute;
+            overflow: visible;
+            width: 1920px;
+            height: 950px;
+            left: 0px;
+            top: 0px;
+        }
+        #Pass_Border {
+            fill: rgba(255,255,255,1);
+            stroke: rgba(0,0,0,1);
+            stroke-width: 2px;
+            stroke-linejoin: miter;
+            stroke-linecap: butt;
+            stroke-miterlimit: 4;
+            shape-rendering: auto;
+        }
+        .Pass_Border {
+            position: absolute;
+            overflow: visible;
+            width: 1829px;
+            height: 548px;
+            left: 46px;
+            top: 288px;
+        }
+        #Line_11 {
+            fill: transparent;
+            stroke: rgba(0,0,0,1);
+            stroke-width: 3px;
+            stroke-linejoin: miter;
+            stroke-linecap: butt;
+            stroke-miterlimit: 4;
+            shape-rendering: auto;
+        }
+        .Line_11 {
+            overflow: visible;
+            position: absolute;
+            width: 1829px;
+            height: 3px;
+            left: 45.5px;
+            top: 757.5px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #Line_10 {
+            fill: transparent;
+            stroke: rgba(0,0,0,1);
+            stroke-width: 3px;
+            stroke-linejoin: miter;
+            stroke-linecap: butt;
+            stroke-miterlimit: 4;
+            shape-rendering: auto;
+        }
+        .Line_10 {
+            overflow: visible;
+            position: absolute;
+            width: 1829px;
+            height: 3px;
+            left: 45.5px;
+            top: 676.5px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #Line_9 {
+            fill: transparent;
+            stroke: rgba(0,0,0,1);
+            stroke-width: 3px;
+            stroke-linejoin: miter;
+            stroke-linecap: butt;
+            stroke-miterlimit: 4;
+            shape-rendering: auto;
+        }
+        .Line_9 {
+            overflow: visible;
+            position: absolute;
+            width: 1829px;
+            height: 3px;
+            left: 45.5px;
+            top: 594.5px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #Line_8 {
+            fill: transparent;
+            stroke: rgba(0,0,0,1);
+            stroke-width: 3px;
+            stroke-linejoin: miter;
+            stroke-linecap: butt;
+            stroke-miterlimit: 4;
+            shape-rendering: auto;
+        }
+        .Line_8 {
+            overflow: visible;
+            position: absolute;
+            width: 1829px;
+            height: 3px;
+            left: 45.5px;
+            top: 514.5px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #Line_7 {
+            fill: transparent;
+            stroke: rgba(0,0,0,1);
+            stroke-width: 3px;
+            stroke-linejoin: miter;
+            stroke-linecap: butt;
+            stroke-miterlimit: 4;
+            shape-rendering: auto;
+        }
+        .Line_7 {
+            overflow: visible;
+            position: absolute;
+            width: 1829px;
+            height: 3px;
+            left: 45.5px;
+            top: 431.5px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #Line_6 {
+            fill: transparent;
+            stroke: rgba(0,0,0,1);
+            stroke-width: 3px;
+            stroke-linejoin: miter;
+            stroke-linecap: butt;
+            stroke-miterlimit: 4;
+            shape-rendering: auto;
+        }
+        .Line_6 {
+            overflow: visible;
+            position: absolute;
+            width: 1829px;
+            height: 3px;
+            left: 46.5px;
+            top: 352.5px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #ADD_TO_CART {
+            position: absolute;
+            width: 1809px;
+            height: 638px;
+            left: 66px;
+            top: 295px;
+            overflow: visible;
+        }
+        #_The_capacity_of_the_Club_sess {
+            left: 53px;
+            top: 566px;
+            position: absolute;
+            overflow: visible;
+            width: 1757px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 30px;
+            color: rgba(0,0,0,1);
+        }
+        #Ellipse_1 {
+            fill: rgba(0,78,212,1);
+            stroke: rgba(112,112,112,1);
+            stroke-width: 1px;
+            stroke-linejoin: miter;
+            stroke-linecap: butt;
+            stroke-miterlimit: 4;
+            shape-rendering: auto;
+        }
+        .Ellipse_1 {
+            position: absolute;
+            overflow: visible;
+            width: 41px;
+            height: 41px;
+            left: 0px;
+            top: 566px;
+        }
+        #ATC_Button {
+            position: absolute;
+            width: 343px;
+            height: 461px;
+            left: 1452px;
+            top: 69px;
+            overflow: visible;
+        }
+        #Rectangle_1178 {
+            fill: rgba(255,238,0,1);
+            stroke: rgba(112,112,112,1);
+            stroke-width: 1px;
+            stroke-linejoin: miter;
+            stroke-linecap: butt;
+            stroke-miterlimit: 4;
+            shape-rendering: auto;
+        }
+        .Rectangle_1178 {
+            position: absolute;
+            overflow: visible;
+            width: 343px;
+            height: 54px;
+            left: 0px;
+            top: 407px;
+        }
+        #Rectangle_1174 {
+            fill: rgba(255,238,0,1);
+            stroke: rgba(112,112,112,1);
+            stroke-width: 1px;
+            stroke-linejoin: miter;
+            stroke-linecap: butt;
+            stroke-miterlimit: 4;
+            shape-rendering: auto;
+        }
+        .Rectangle_1174 {
+            position: absolute;
+            overflow: visible;
+            width: 343px;
+            height: 54px;
+            left: 0px;
+            top: 325px;
+        }
+        #Rectangle_1175 {
+            fill: rgba(255,238,0,1);
+            stroke: rgba(112,112,112,1);
+            stroke-width: 1px;
+            stroke-linejoin: miter;
+            stroke-linecap: butt;
+            stroke-miterlimit: 4;
+            shape-rendering: auto;
+        }
+        .Rectangle_1175 {
+            position: absolute;
+            overflow: visible;
+            width: 343px;
+            height: 54px;
+            left: 0px;
+            top: 243px;
+        }
+        #Rectangle_1176 {
+            fill: rgba(255,238,0,1);
+            stroke: rgba(112,112,112,1);
+            stroke-width: 1px;
+            stroke-linejoin: miter;
+            stroke-linecap: butt;
+            stroke-miterlimit: 4;
+            shape-rendering: auto;
+        }
+        .Rectangle_1176 {
+            position: absolute;
+            overflow: visible;
+            width: 343px;
+            height: 54px;
+            left: 0px;
+            top: 161px;
+        }
+        #Rectangle_1177 {
+            fill: rgba(255,238,0,1);
+            stroke: rgba(112,112,112,1);
+            stroke-width: 1px;
+            stroke-linejoin: miter;
+            stroke-linecap: butt;
+            stroke-miterlimit: 4;
+            shape-rendering: auto;
+        }
+        .Rectangle_1177 {
+            position: absolute;
+            overflow: visible;
+            width: 343px;
+            height: 54px;
+            left: 0px;
+            top: 79px;
+        }
+        #Rectangle_1555 {
+            fill: rgba(255,238,0,1);
+            stroke: rgba(112,112,112,1);
+            stroke-width: 1px;
+            stroke-linejoin: miter;
+            stroke-linecap: butt;
+            stroke-miterlimit: 4;
+            shape-rendering: auto;
+        }
+        .Rectangle_1555 {
+            position: absolute;
+            overflow: visible;
+            width: 343px;
+            height: 54px;
+            left: 0px;
+            top: 0px;
+        }
+        #ADD_TO_CART_fm {
+            left: 96px;
+            top: 417px;
+            position: absolute;
+            overflow: visible;
+            width: 155px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Source Sans Variable;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 25px;
+            color: rgba(0,0,0,1);
+        }
+        #ADD_TO_CART_fn {
+            left: 96px;
+            top: 334px;
+            position: absolute;
+            overflow: visible;
+            width: 155px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Source Sans Variable;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 25px;
+            color: rgba(0,0,0,1);
+        }
+        #ADD_TO_CART_fo {
+            left: 96px;
+            top: 253px;
+            position: absolute;
+            overflow: visible;
+            width: 155px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Source Sans Variable;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 25px;
+            color: rgba(0,0,0,1);
+        }
+        #ADD_TO_CART_fp {
+            left: 96px;
+            top: 171px;
+            position: absolute;
+            overflow: visible;
+            width: 155px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Source Sans Variable;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 25px;
+            color: rgba(0,0,0,1);
+        }
+        #ADD_TO_CART_fq {
+            left: 96px;
+            top: 91px;
+            position: absolute;
+            overflow: visible;
+            width: 155px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Source Sans Variable;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 25px;
+            color: rgba(0,0,0,1);
+        }
+        #ADD_TO_CART_fr {
+            left: 96px;
+            top: 13px;
+            position: absolute;
+            overflow: visible;
+            width: 155px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Source Sans Variable;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 25px;
+            color: rgba(0,0,0,1);
+        }
+        #Price {
+            position: absolute;
+            width: 135px;
+            height: 461px;
+            left: 1265px;
+            top: 68px;
+            overflow: visible;
+        }
+        #ID6000 {
+            left: 0px;
+            top: 408px;
+            position: absolute;
+            overflow: visible;
+            width: 124px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 40px;
+            color: rgba(0,0,0,1);
+        }
+        #ID6000_fu {
+            left: 2px;
+            top: 326px;
+            position: absolute;
+            overflow: visible;
+            width: 124px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 40px;
+            color: rgba(0,0,0,1);
+        }
+        #ID6000_fv {
+            left: 2px;
+            top: 245px;
+            position: absolute;
+            overflow: visible;
+            width: 124px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 40px;
+            color: rgba(0,0,0,1);
+        }
+        #ID6000_fw {
+            left: 0px;
+            top: 163px;
+            position: absolute;
+            overflow: visible;
+            width: 124px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 40px;
+            color: rgba(0,0,0,1);
+        }
+        #ID7500 {
+            left: 2px;
+            top: 83px;
+            position: absolute;
+            overflow: visible;
+            width: 119px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 40px;
+            color: rgba(0,0,0,1);
+        }
+        #ID12500 {
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 136px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 40px;
+            color: rgba(0,0,0,1);
+        }
+        #Session {
+            position: absolute;
+            width: 204px;
+            height: 372px;
+            left: 842px;
+            top: 151px;
+            overflow: visible;
+        }
+        #Club {
+            left: 0px;
+            top: 325px;
+            position: absolute;
+            overflow: visible;
+            width: 84px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 40px;
+            color: rgba(0,0,0,1);
+        }
+        #Club_f {
+            left: 0px;
+            top: 243px;
+            position: absolute;
+            overflow: visible;
+            width: 84px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 40px;
+            color: rgba(0,0,0,1);
+        }
+        #Club_ga {
+            left: 0px;
+            top: 162px;
+            position: absolute;
+            overflow: visible;
+            width: 84px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 40px;
+            color: rgba(0,0,0,1);
+        }
+        #Club_gb {
+            left: 0px;
+            top: 80px;
+            position: absolute;
+            overflow: visible;
+            width: 84px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 40px;
+            color: rgba(0,0,0,1);
+        }
+        #Back2Back {
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 205px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 40px;
+            color: rgba(0,0,0,1);
+        }
+        #Pass_Name {
+            position: absolute;
+            width: 391px;
+            height: 455px;
+            left: 22px;
+            top: 68px;
+            overflow: visible;
+        }
+        #Tisto {
+            left: 0px;
+            top: 408px;
+            position: absolute;
+            overflow: visible;
+            width: 100px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: italic;
+            font-weight: normal;
+            font-size: 40px;
+            color: rgba(0,0,0,1);
+        }
+        #Martin_Garrix {
+            left: 0px;
+            top: 326px;
+            position: absolute;
+            overflow: visible;
+            width: 221px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: italic;
+            font-weight: normal;
+            font-size: 40px;
+            color: rgba(0,0,0,1);
+        }
+        #Armin_van_Buuren {
+            left: 0px;
+            top: 245px;
+            position: absolute;
+            overflow: visible;
+            width: 299px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: italic;
+            font-weight: normal;
+            font-size: 40px;
+            color: rgba(0,0,0,1);
+        }
+        #Hardwell {
+            left: 0px;
+            top: 163px;
+            position: absolute;
+            overflow: visible;
+            width: 145px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: italic;
+            font-weight: normal;
+            font-size: 40px;
+            color: rgba(0,0,0,1);
+        }
+        #Nicky_Romero_Afrojack {
+            left: 0px;
+            top: 83px;
+            position: absolute;
+            overflow: visible;
+            width: 389px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: italic;
+            font-weight: normal;
+            font-size: 40px;
+            color: rgba(0,0,0,1);
+        }
+        #All-Access_Pass_Friday {
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 392px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: italic;
+            font-weight: normal;
+            font-size: 40px;
+            color: rgba(0,0,0,1);
+        }
+        #Headers {
+            position: absolute;
+            width: 1340px;
+            height: 47px;
+            left: 22px;
+            top: 0px;
+            overflow: visible;
+        }
+        #Price_gd {
+            left: 1245px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 96px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            color: rgba(0,0,0,1);
+        }
+        #Session_ge {
+            left: 820px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 151px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            color: rgba(0,0,0,1);
+        }
+        #Pass {
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 90px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            color: rgba(0,0,0,1);
+        }
+        #Date_Selection {
+            position: absolute;
+            width: 1148px;
+            height: 83px;
+            left: 386px;
+            top: 135px;
+            overflow: visible;
+        }
+        #Rectangle_1171 {
+            fill: rgba(255,255,255,1);
+        }
+        .Rectangle_1171 {
+            position: absolute;
+            overflow: visible;
+            width: 314px;
+            height: 83px;
+            left: 834px;
+            top: 0px;
+            --web-animation: fadein 0.3s ease-out;
+            --web-action-type: page;
+            --web-action-target: 29th_July.html;
+            cursor: pointer;
+        }
+        #ID29th__Sunday {
+            left: 886px;
+            top: 18px;
+            position: absolute;
+            overflow: visible;
+            width: 212px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Segoe UI;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 35px;
+            color: rgba(3,0,0,1);
+        }
+        #Rectangle_1170 {
+            fill: rgba(255,255,255,1);
+        }
+        .Rectangle_1170 {
+            position: absolute;
+            overflow: visible;
+            width: 314px;
+            height: 83px;
+            left: 417px;
+            top: 0px;
+            --web-animation: fadein 0.3s ease-out;
+            --web-action-type: page;
+            --web-action-target: 28th_July.html;
+            cursor: pointer;
+        }
+        #ID28th__Saturday {
+            left: 458px;
+            top: 18px;
+            position: absolute;
+            overflow: visible;
+            width: 234px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Segoe UI;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 35px;
+            color: rgba(3,0,0,1);
+        }
+        #Rectangle_1169 {
+            fill: rgba(0,78,212,1);
+        }
+        .Rectangle_1169 {
+            position: absolute;
+            overflow: visible;
+            width: 314px;
+            height: 83px;
+            left: 0px;
+            top: 0px;
+        }
+        #ID27th__Friday {
+            left: 54px;
+            top: 18px;
+            position: absolute;
+            overflow: visible;
+            width: 208px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Segoe UI;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 35px;
+            color: rgba(255,255,255,1);
+        }
+        #Line_5 {
+            fill: transparent;
+            stroke: rgba(0,0,0,1);
+            stroke-width: 3px;
+            stroke-linejoin: miter;
+            stroke-linecap: butt;
+            stroke-miterlimit: 4;
+            shape-rendering: auto;
+        }
+        .Line_5 {
+            overflow: visible;
+            position: absolute;
+            width: 501px;
+            height: 3px;
+            left: 714.5px;
+            top: 76.5px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #TICKETS {
+            left: 863px;
+            top: 17px;
+            position: absolute;
+            overflow: visible;
+            width: 195px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 50px;
+            color: rgba(0,0,0,1);
+        }
+        #WELCOME_IMAGE {
+            position: absolute;
+            width: 1920px;
+            height: 677px;
+            left: 0px;
+            top: 9px;
+            overflow: visible;
+        }
+        #Group_12 {
+            position: absolute;
+            width: 1920px;
+            height: 677px;
+            left: 0px;
+            top: 0px;
+            overflow: visible;
+        }
+        #DJs_Schedule {
+            position: absolute;
+            width: 1867px;
+            height: 852px;
+            left: 20px;
+            top: 712px;
+            overflow: visible;
+        }
+        #Schedule_Backgr {
+            fill: rgba(0,78,212,1);
+        }
+        .Schedule_Backgr {
+            position: absolute;
+            overflow: visible;
+            width: 1028px;
+            height: 764px;
+            left: 839px;
+            top: 88px;
+        }
+        #Schedules_Dates {
+            position: absolute;
+            width: 978px;
+            height: 599px;
+            left: 859.5px;
+            top: 216px;
+            overflow: visible;
+        }
+        #Sun_29th {
+            position: absolute;
+            width: 932px;
+            height: 180px;
+            left: 17.5px;
+            top: 419px;
+            overflow: visible;
+        }
+        #Martin {
+            position: absolute;
+            width: 759px;
+            height: 36px;
+            left: 173px;
+            top: 144px;
+            overflow: visible;
+        }
+        #ID1800 {
+            left: 688px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 72px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #Club_Stalker {
+            left: 397px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 169px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #Martin_Garrix_gy {
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 183px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #Hardwell_gz {
+            position: absolute;
+            width: 758px;
+            height: 36px;
+            left: 173px;
+            top: 108px;
+            overflow: visible;
+        }
+        #ID2100 {
+            left: 688px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 71px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #XO_The_Club {
+            left: 399px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 165px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #Hardwell_g {
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 121px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #Armin {
+            position: absolute;
+            width: 758px;
+            height: 36px;
+            left: 173px;
+            top: 72px;
+            overflow: visible;
+        }
+        #ID1900 {
+            left: 688px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 71px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #Jopenkerk {
+            left: 400px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 142px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #Armin_van_Buuren_g {
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 249px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #ID1400 {
+            left: 861px;
+            top: 18px;
+            position: absolute;
+            overflow: visible;
+            width: 70px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #Caprera_Openlucht_-theather {
+            left: 574px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 258px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #Afrojack_Tisto_Nicky_Romero {
+            left: 173px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 314px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #Sunday_July_29th {
+            left: 0px;
+            top: 26px;
+            position: absolute;
+            overflow: visible;
+            width: 126px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #Line_4 {
+            fill: transparent;
+            stroke: rgba(255,255,255,1);
+            stroke-width: 3px;
+            stroke-linejoin: miter;
+            stroke-linecap: butt;
+            stroke-miterlimit: 4;
+            shape-rendering: auto;
+        }
+        .Line_4 {
+            overflow: visible;
+            position: absolute;
+            width: 978px;
+            height: 3px;
+            left: 0px;
+            top: 402.5px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #Sat_28th {
+            position: absolute;
+            width: 759px;
+            height: 180px;
+            left: 190.5px;
+            top: 206px;
+            overflow: visible;
+        }
+        #Nicky {
+            position: absolute;
+            width: 759px;
+            height: 36px;
+            left: 0px;
+            top: 144px;
+            overflow: visible;
+        }
+        #ID1800_he {
+            left: 688px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 72px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #Club_Stalker_hf {
+            left: 400px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 169px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #Nicky_Romero {
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 190px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #Tiesto {
+            position: absolute;
+            width: 758px;
+            height: 36px;
+            left: 0px;
+            top: 108px;
+            overflow: visible;
+        }
+        #ID2100_hi {
+            left: 688px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 71px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #Lichtfabriek {
+            left: 400px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 166px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #Tisto_hk {
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 84px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #Afrojack {
+            position: absolute;
+            width: 758px;
+            height: 36px;
+            left: 0px;
+            top: 72px;
+            overflow: visible;
+        }
+        #ID1900_hm {
+            left: 688px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 71px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #Jopenkerk_hn {
+            left: 400px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 142px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #Afrojack_ho {
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 115px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #ID1400_hp {
+            left: 688px;
+            top: 20px;
+            position: absolute;
+            overflow: visible;
+            width: 70px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #Caprera_Openlucht-_theather {
+            left: 400px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 269px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #Armin_van_BuurenMartin_Garrix_ {
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 354px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #Line_3 {
+            fill: transparent;
+            stroke: rgba(255,255,255,1);
+            stroke-width: 3px;
+            stroke-linejoin: miter;
+            stroke-linecap: butt;
+            stroke-miterlimit: 4;
+            shape-rendering: auto;
+        }
+        .Line_3 {
+            overflow: visible;
+            position: absolute;
+            width: 978px;
+            height: 3px;
+            left: 0px;
+            top: 196.5px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #Friday_27th {
+            position: absolute;
+            width: 936px;
+            height: 180px;
+            left: 20.5px;
+            top: 0px;
+            overflow: visible;
+        }
+        #Martin_Garrix_hu {
+            position: absolute;
+            width: 765px;
+            height: 36px;
+            left: 170px;
+            top: 144px;
+            overflow: visible;
+        }
+        #Martin_Garrix_hv {
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 183px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #Club_Ruis {
+            left: 400px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 132px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #ID2200 {
+            left: 688px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 78px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #Armin_hy {
+            position: absolute;
+            width: 765px;
+            height: 36px;
+            left: 170px;
+            top: 108px;
+            overflow: visible;
+        }
+        #Armin_van_Buuren_hz {
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 249px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #XO_The_Club_h {
+            left: 399px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 165px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #ID2200_h {
+            left: 688px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 78px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #Hardwell_h {
+            position: absolute;
+            width: 766px;
+            height: 36px;
+            left: 170px;
+            top: 72px;
+            overflow: visible;
+        }
+        #Hardwell_ia {
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 121px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #Jopenkerk_h {
+            left: 400px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 142px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #ID2300 {
+            left: 688px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 79px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #Tiesto_h {
+            position: absolute;
+            width: 765px;
+            height: 36px;
+            left: 170px;
+            top: 36px;
+            overflow: visible;
+        }
+        #Tisto_h {
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 84px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #Club_Stalker_h {
+            left: 400px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 169px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #ID2200_ia {
+            left: 688px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 78px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #Nicky_Afrojack {
+            position: absolute;
+            width: 766px;
+            height: 36px;
+            left: 170px;
+            top: 0px;
+            overflow: visible;
+        }
+        #Nicky_Romero_Afrojack_ib {
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 324px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #Lichtfabriek_ic {
+            left: 400px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 166px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #ID2000 {
+            left: 688px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 79px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #Friday_July_27th {
+            left: 0px;
+            top: 54px;
+            position: absolute;
+            overflow: visible;
+            width: 122px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #Line_2 {
+            fill: transparent;
+            stroke: rgba(255,255,255,1);
+            stroke-width: 3px;
+            stroke-linejoin: miter;
+            stroke-linecap: butt;
+            stroke-miterlimit: 4;
+            shape-rendering: auto;
+        }
+        .Line_2 {
+            overflow: visible;
+            position: absolute;
+            width: 978px;
+            height: 3px;
+            left: 859.5px;
+            top: 199.5px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #Icons {
+            position: absolute;
+            width: 894.24px;
+            height: 60px;
+            left: 910px;
+            top: 121px;
+            overflow: visible;
+        }
+        #Time {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            left: 834.24px;
+            top: 0px;
+            overflow: visible;
+        }
+        #Location {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            left: 591.432px;
+            top: 0px;
+            overflow: visible;
+        }
+        #Dj {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            left: 278px;
+            top: 0px;
+            overflow: visible;
+        }
+        #Calender {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            left: 0px;
+            top: 0px;
+            overflow: visible;
+        }
+        #DJs_Info {
+            position: absolute;
+            width: 802px;
+            height: 698px;
+            left: 0px;
+            top: 127px;
+            overflow: visible;
+        }
+        #Nicky_Romero_im {
+            left: 561px;
+            top: 646px;
+            position: absolute;
+            overflow: visible;
+            width: 242px;
+            white-space: nowrap;
+            cursor: pointer;
+            --web-animation: fadein 0.3s ease-out;
+            --web-action-type: page;
+            --web-action-target: Nicky_schedule.html;
+            text-align: left;
+            font-family: Source Sans Variable;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 39px;
+            color: rgba(0,65,178,1);
+        }
+        #nicky_romero {
+            position: absolute;
+            width: 226px;
+            height: 226px;
+            left: 570px;
+            top: 403px;
+            overflow: visible;
+            cursor: pointer;
+            --web-animation: fadein 0.3s ease-out;
+            --web-action-type: page;
+            --web-action-target: Nicky_schedule.html;
+        }
+        #Afrojack_io {
+            left: 351px;
+            top: 646px;
+            position: absolute;
+            overflow: visible;
+            width: 141px;
+            white-space: nowrap;
+            cursor: pointer;
+            --web-animation: fadein 0.3s ease-out;
+            --web-action-type: page;
+            --web-action-target: Afrojack_Schedule.html;
+            text-align: left;
+            font-family: Source Sans Variable;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 39px;
+            color: rgba(0,65,178,1);
+        }
+        #afrojack {
+            position: absolute;
+            width: 226px;
+            height: 226px;
+            left: 308px;
+            top: 403px;
+            overflow: visible;
+            cursor: pointer;
+            --web-animation: fadein 0.3s ease-out;
+            --web-action-type: page;
+            --web-action-target: Afrojack_Schedule.html;
+        }
+        #Armin_van_Buuren_iq {
+            left: 0px;
+            top: 646px;
+            position: absolute;
+            overflow: visible;
+            width: 309px;
+            white-space: nowrap;
+            cursor: pointer;
+            --web-animation: fadein 0.3s ease-out;
+            --web-action-type: page;
+            --web-action-target: Armin_van_Buuren_schedule.html;
+            text-align: left;
+            font-family: Source Sans Variable;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 39px;
+            color: rgba(0,65,178,1);
+        }
+        #armin_van_buuren {
+            position: absolute;
+            width: 226px;
+            height: 226px;
+            left: 46px;
+            top: 403px;
+            overflow: visible;
+            cursor: pointer;
+            --web-animation: fadein 0.3s ease-out;
+            --web-action-type: page;
+            --web-action-target: Armin_van_Buuren_schedule.html;
+        }
+        #Hardwell_is {
+            left: 607px;
+            top: 243px;
+            position: absolute;
+            overflow: visible;
+            width: 153px;
+            white-space: nowrap;
+            cursor: pointer;
+            --web-animation: fadein 0.3s ease-out;
+            --web-action-type: page;
+            --web-action-target: Hardwell_schedule.html;
+            text-align: left;
+            font-family: Source Sans Variable;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 39px;
+            color: rgba(0,65,178,1);
+        }
+        #hardwell {
+            position: absolute;
+            width: 226px;
+            height: 226px;
+            left: 570px;
+            top: 0px;
+            overflow: visible;
+            cursor: pointer;
+            --web-animation: fadein 0.3s ease-out;
+            --web-action-type: page;
+            --web-action-target: Hardwell_schedule.html;
+        }
+        #Tisto_iu {
+            left: 371px;
+            top: 243px;
+            position: absolute;
+            overflow: visible;
+            width: 104px;
+            white-space: nowrap;
+            cursor: pointer;
+            --web-animation: fadein 0.3s ease-out;
+            --web-action-type: page;
+            --web-action-target: Tiesto_schedule.html;
+            text-align: left;
+            font-family: Source Sans Variable;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 39px;
+            color: rgba(0,65,178,1);
+        }
+        #tiesto {
+            position: absolute;
+            width: 226px;
+            height: 226px;
+            left: 308px;
+            top: 0px;
+            overflow: visible;
+            cursor: pointer;
+            --web-animation: fadein 0.3s ease-out;
+            --web-action-type: page;
+            --web-action-target: Tiesto_schedule.html;
+        }
+        #Martin_Garrix_iw {
+            left: 46px;
+            top: 243px;
+            position: absolute;
+            overflow: visible;
+            width: 226px;
+            white-space: nowrap;
+            cursor: pointer;
+            --web-animation: fadein 0.3s ease-out;
+            --web-action-type: page;
+            --web-action-target: MArtin_Garrix_schedule_.html;
+            text-align: left;
+            font-family: Source Sans Variable;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 39px;
+            color: rgba(0,65,178,1);
+        }
+        #martin_garrix {
+            position: absolute;
+            width: 226px;
+            height: 226px;
+            left: 46px;
+            top: 0px;
+            overflow: visible;
+            cursor: pointer;
+            --web-animation: fadein 0.3s ease-out;
+            --web-action-type: page;
+            --web-action-target: MArtin_Garrix_schedule_.html;
+        }
+        #Lineup_Sche {
+            position: absolute;
+            width: 1179px;
+            height: 70px;
+            left: 318px;
+            top: 0px;
+            overflow: visible;
+        }
+        #LINE_UP {
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 207px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 60px;
+            color: rgba(7,7,7,1);
+        }
+        #SCHEDULE {
+            left: 891px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 289px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 60px;
+            color: rgba(7,7,7,1);
+        }
+        #Saturday_July_28th {
+            left: 877px;
+            top: 476px;
+            position: absolute;
+            overflow: visible;
+            width: 127px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+        }
+        #WELCOME_BANNER {
+            position: absolute;
+            width: 676px;
+            height: 280px;
+            left: 622px;
+            top: 280px;
+            overflow: visible;
+        }
+        #Rectangle_BookTickets {
+            fill: rgba(255,238,0,1);
+            stroke: rgba(112,112,112,1);
+            stroke-width: 1px;
+            stroke-linejoin: miter;
+            stroke-linecap: butt;
+            stroke-miterlimit: 4;
+            shape-rendering: auto;
+        }
+        .Rectangle_BookTickets {
+            position: absolute;
+            overflow: visible;
+            width: 540px;
+            height: 98px;
+            left: 53px;
+            top: 182px;
+        }
+        #Book_Your_Ticket {
+            left: 121px;
+            top: 205px;
+            position: absolute;
+            overflow: visible;
+            width: 399px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Source Sans Variable;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            color: rgba(0,78,212,1);
+        }
+        #Haarlem_Festival {
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 677px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Book Antiqua;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 87px;
+            color: rgba(255,255,255,1);
+        }
+        #Music_is_life_itself {
+            left: 36px;
+            top: 85px;
+            position: absolute;
+            overflow: visible;
+            width: 606px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Book Antiqua;
+            font-style: italic;
+            font-weight: normal;
+            font-size: 72px;
+            color: rgba(255,255,255,1);
+        }
+        #HF_NAV_BAR {
+            position: absolute;
+            width: 1920px;
+            height: 182px;
+            left: -1px;
+            top: 0px;
+            overflow: visible;
+            --web-animation: fadein 0.3s ease-out;
+            --web-action-type: page;
+            --web-action-target: HaarlemFestival_Home.html;
+            cursor: pointer;
+        }
+        #Nav_Bar_Backgr {
+            fill: rgba(0,78,212,1);
+            stroke: rgba(112,112,112,1);
+            stroke-width: 1px;
+            stroke-linejoin: miter;
+            stroke-linecap: butt;
+            stroke-miterlimit: 4;
+            shape-rendering: auto;
+        }
+        .Nav_Bar_Backgr {
+            position: absolute;
+            overflow: visible;
+            width: 1920px;
+            height: 182px;
+            left: 0px;
+            top: 0px;
+        }
+        #Nav_Lines {
+            position: absolute;
+            width: 907px;
+            height: 99.5px;
+            left: 543.5px;
+            top: 45px;
+            overflow: visible;
+        }
+        #Line_113 {
+            fill: transparent;
+            stroke: rgba(255,238,0,1);
+            stroke-width: 5px;
+            stroke-linejoin: miter;
+            stroke-linecap: butt;
+            stroke-miterlimit: 4;
+            shape-rendering: auto;
+        }
+        .Line_113 {
+            overflow: visible;
+            position: absolute;
+            width: 235px;
+            height: 5px;
+            left: 437px;
+            top: 99.5px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #Line_56 {
+            fill: transparent;
+            stroke: rgba(190,190,190,1);
+            stroke-width: 1px;
+            stroke-linejoin: miter;
+            stroke-linecap: butt;
+            stroke-miterlimit: 4;
+            shape-rendering: auto;
+        }
+        .Line_56 {
+            overflow: visible;
+            position: absolute;
+            width: 1px;
+            height: 96.5px;
+            left: 907px;
+            top: 0px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #Line_55 {
+            fill: transparent;
+            stroke: rgba(190,190,190,1);
+            stroke-width: 1px;
+            stroke-linejoin: miter;
+            stroke-linecap: butt;
+            stroke-miterlimit: 4;
+            shape-rendering: auto;
+        }
+        .Line_55 {
+            overflow: visible;
+            position: absolute;
+            width: 1px;
+            height: 96.5px;
+            left: 672px;
+            top: 0px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #Line_54 {
+            fill: transparent;
+            stroke: rgba(190,190,190,1);
+            stroke-width: 1px;
+            stroke-linejoin: miter;
+            stroke-linecap: butt;
+            stroke-miterlimit: 4;
+            shape-rendering: auto;
+        }
+        .Line_54 {
+            overflow: visible;
+            position: absolute;
+            width: 1px;
+            height: 96.5px;
+            left: 437px;
+            top: 0px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #Line_53 {
+            fill: transparent;
+            stroke: rgba(190,190,190,1);
+            stroke-width: 1px;
+            stroke-linejoin: miter;
+            stroke-linecap: butt;
+            stroke-miterlimit: 4;
+            shape-rendering: auto;
+        }
+        .Line_53 {
+            overflow: visible;
+            position: absolute;
+            width: 1px;
+            height: 96.5px;
+            left: 229px;
+            top: 0px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #Line_52 {
+            fill: transparent;
+            stroke: rgba(190,190,190,1);
+            stroke-width: 1px;
+            stroke-linejoin: miter;
+            stroke-linecap: butt;
+            stroke-miterlimit: 4;
+            shape-rendering: auto;
+        }
+        .Line_52 {
+            overflow: visible;
+            position: absolute;
+            width: 1px;
+            height: 96.5px;
+            left: 0px;
+            top: 0px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #Customer_Icon {
+            position: absolute;
+            width: 46.894px;
+            height: 57.957px;
+            left: 1532.059px;
+            top: 63px;
+            overflow: visible;
+        }
+        #Cart_Icon {
+            position: absolute;
+            width: 56.049px;
+            height: 50.191px;
+            left: 1663.592px;
+            top: 71.262px;
+            overflow: visible;
+        }
+        #Nav_Text {
+            position: absolute;
+            width: 1066px;
+            height: 82.39px;
+            left: 328px;
+            top: 52px;
+            overflow: visible;
+        }
+        #Food {
+            left: 931px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 136px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Segoe UI;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 60px;
+            color: rgba(255,255,255,1);
+        }
+        #Dance {
+            left: 687px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 181px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Segoe UI;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 60px;
+            color: rgba(255,238,0,1);
+        }
+        #Jazz {
+            left: 490px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 107px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Segoe UI;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 60px;
+            color: rgba(255,255,255,1);
+        }
+        #Home {
+            left: 245px;
+            top: 0px;
+            position: absolute;
+            overflow: visible;
+            width: 162px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Segoe UI;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 60px;
+            color: rgba(255,255,255,1);
+        }
+        #HAARLEM {
+            left: 0px;
+            top: 5px;
+            position: absolute;
+            overflow: visible;
+            width: 171px;
+            white-space: nowrap;
+            line-height: 41px;
+            margin-top: -3.5px;
+            text-align: left;
+            font-family: Arial-BoldMT;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 34px;
+            color: rgba(255,255,255,1);
+        }
+        #FESTIVAL {
+            left: 3.284px;
+            top: 43.39px;
+            position: absolute;
+            overflow: visible;
+            width: 168px;
+            white-space: nowrap;
+            line-height: 42px;
+            margin-top: -3.5px;
+            text-align: left;
+            font-family: Arial-BoldMT;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 35px;
+            color: rgba(255,255,255,1);
+        }
+        #HF_Logo {
+            position: absolute;
+            width: 113.86px;
+            height: 96.5px;
+            left: 203.999px;
+            top: 45px;
+            overflow: visible;
+        }
+        #Path_40341 {
+            fill: rgba(255,255,255,1);
+        }
+        .Path_40341 {
+            overflow: visible;
+            position: absolute;
+            width: 25.587px;
+            height: 96.5px;
+            left: 54.527px;
+            top: 0px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #Path_40342 {
+            fill: rgba(255,255,255,1);
+        }
+        .Path_40342 {
+            overflow: visible;
+            position: absolute;
+            width: 25.587px;
+            height: 96.5px;
+            left: 0px;
+            top: 0px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #Path_40343 {
+            fill: rgba(255,238,0,1);
+        }
+        .Path_40343 {
+            overflow: visible;
+            position: absolute;
+            width: 59.297px;
+            height: 17.728px;
+            left: 54.563px;
+            top: 0px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #Path_40344 {
+            fill: rgba(255,238,0,1);
+        }
+        .Path_40344 {
+            overflow: visible;
+            position: absolute;
+            width: 96.817px;
+            height: 17.728px;
+            left: 0px;
+            top: 46.818px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #Path_40345 {
+            fill: rgba(255,255,255,1);
+        }
+        .Path_40345 {
+            overflow: visible;
+            position: absolute;
+            width: 9.413px;
+            height: 23.692px;
+            left: 35.793px;
+            top: 12.837px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #Path_40346 {
+            fill: rgba(255,238,0,1);
+        }
+        .Path_40346 {
+            overflow: visible;
+            position: absolute;
+            width: 13.759px;
+            height: 21.231px;
+            left: 27.921px;
+            top: 23.023px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #Path_40347 {
+            fill: rgba(255,238,0,1);
+        }
+        .Path_40347 {
+            overflow: visible;
+            position: absolute;
+            width: 21.151px;
+            height: 4.804px;
+            left: 31.846px;
+            top: 3.625px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #Path_40348 {
+            fill: rgba(255,255,255,1);
+        }
+        .Path_40348 {
+            overflow: visible;
+            position: absolute;
+            width: 7.875px;
+            height: 8.78px;
+            left: 31.527px;
+            top: 9.779px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #Path_40349 {
+            fill: rgba(255,255,255,1);
+        }
+        .Path_40349 {
+            overflow: visible;
+            position: absolute;
+            width: 7.158px;
+            height: 8.691px;
+            left: 43.662px;
+            top: 19.85px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #Path_40350 {
+            fill: rgba(255,255,255,1);
+        }
+        .Path_40350 {
+            overflow: visible;
+            position: absolute;
+            width: 7.326px;
+            height: 8.851px;
+            left: 30.173px;
+            top: 19.565px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #Path_40351 {
+            fill: rgba(255,255,255,1);
+        }
+        .Path_40351 {
+            overflow: visible;
+            position: absolute;
+            width: 7.397px;
+            height: 7.657px;
+            left: 44.08px;
+            top: 11.264px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #Path_40352 {
+            fill: rgba(255,255,255,1);
+        }
+        .Path_40352 {
+            overflow: visible;
+            position: absolute;
+            width: 4.116px;
+            height: 4.001px;
+            left: 40.398px;
+            top: 7.38px;
+            transform: matrix(1,0,0,1,0,0);
+        }
     </style>
+    <script id="applicationScript" type="text/javascript" src="dance.js"></script>
 </head>
 <body>
 <div id="Dance_Event">
-    <div id="FOOTER">
+    <div style="position:absolute;width:1920px;height:155px;left:0px;top:3817px;overflow:visible;" id="FOOTER">
         <svg class="Footer_Backgr">
             <rect id="Footer_Backgr" rx="0" ry="0" x="0" y="0" width="1920" height="155">
             </rect>
         </svg>
-        <img id="Social_Media_Icon" src="Social_Media_Icon.png" srcset="Social_Media_Icon.png 1x">
+        <img style="position:absolute;width:386px;height:62.068px;left:1243px;top:50px;overflow:visible;" id="Social_Media_Icon" src="Social_Media_Icon.png" srcset="Social_Media_Icon.png 1x">
 
         </svg>
         <div id="Contact_Us">
@@ -30,32 +3189,32 @@
             <span>© Haarlem Festival</span>
         </div>
     </div>
-    <div id="PERSONAL">
+    <div style="position:absolute;width:1920px;height:1009px;left:0px;top:2805px;overflow:visible;" id="PERSONAL">
         <svg class="Rectangle_78">
             <rect id="Rectangle_78" rx="0" ry="0" x="0" y="0" width="1920" height="1009">
             </rect>
         </svg>
-        <div id="Follow">
-            <img id="SocialMedia" src="SocialMedia.png" srcset="SocialMedia.png 1x">
+        <div style="position:absolute;width:709px;height:880.734px;left:981px;top:62px;overflow:visible;" id="Follow">
+            <img style="position:absolute;width:440px;height:183.648px;left:134px;top:697.085px;overflow:visible;" id="SocialMedia" src="SocialMedia.png" srcset="SocialMedia.png 1x">
 
             </svg>
-            <img id="FollowUs" src="FollowUs.png" srcset="FollowUs.png 1x">
+            <img style="position:absolute;width:397px;height:197.689px;left:155px;top:481.641px;overflow:visible;" id="FollowUs" src="FollowUs.png" srcset="FollowUs.png 1x">
 
             </svg>
             <div id="Never_miss_an_update_catch_all">
                 <span>Never miss an update catch all the specials</span>
             </div>
-            <img id="Map" src="Map.png" srcset="Map.png 1x">
+            <img style="position:absolute;width:670px;height:320px;left:34px;top:91px;overflow:visible;" id="Map" src="Map.png" srcset="Map.png 1x">
 
             </svg>
-            <img id="MapIcon" src="MapIcon.png" srcset="MapIcon.png 1x">
+            <img style="position:absolute;width:670px;height:320px;left:34px;top:91px;overflow:visible;" id="MapIcon" src="MapIcon.png" srcset="MapIcon.png 1x">
 
             </svg>
             <div id="Locations_where_fun_is_happeni">
                 <span>Locations where fun is happening!</span>
             </div>
         </div>
-        <div id="Create_Schedule">
+        <div style="position:absolute;width:606px;height:881px;left:298px;top:62px;overflow:visible;" id="Create_Schedule">
             <svg class="Rectangle_1410">
                 <rect id="Rectangle_1410" rx="38" ry="38" x="0" y="0" width="602" height="76">
                 </rect>
@@ -66,7 +3225,7 @@
             <div id="Arrange_all_your_tickets_plan_">
                 <span>Arrange all your tickets, plan ahead for events and share your programme with friends and family to get the best out of our planner tool. Start booking before tickets sell out</span>
             </div>
-            <img id="Schedule_Image" src="Schedule_Image.png" srcset="Schedule_Image.png 1x">
+            <img style="position:absolute;width:542px;height:506.061px;left:32px;top:91.303px;overflow:visible;" id="Schedule_Image" src="Schedule_Image.png" srcset="Schedule_Image.png 1x">
 
             </svg>
             <div id="Stay_on_top_of_your_schedule">
@@ -74,13 +3233,13 @@
             </div>
         </div>
     </div>
-    <div id="ALL_ACCESS_PASS">
+    <div style="position:absolute;width:1920px;height:299.371px;left:0px;top:2529.631px;overflow:visible;" id="ALL_ACCESS_PASS">
         <svg class="Rectangle_3951">
             <rect id="Rectangle_3951" rx="0" ry="0" x="0" y="0" width="1706" height="275">
             </rect>
         </svg>
-        <div id="DONT_MISS_OUT">
-            <div onclick="application.goToTargetView(event)" id="GET_IT_NOW_BUTTON">
+        <div style="position:absolute;width:423px;height:184px;left:927px;top:32.369px;overflow:visible;" id="DONT_MISS_OUT">
+            <div style="position:absolute;width:286px;height:54px;left:0px;top:130px;overflow:visible;" onclick="application.goToTargetView(event)" id="GET_IT_NOW_BUTTON">
                 <svg class="Rectangle_1515">
                     <rect id="Rectangle_1515" rx="27" ry="27" x="0" y="0" width="286" height="54">
                     </rect>
@@ -96,8 +3255,8 @@
                 <span>Don't Miss Out!</span>
             </div>
         </div>
-        <div id="All_Acess_Banner_Quote">
-            <div id="Group_13162">
+        <div style="position:absolute;width:664px;height:219px;left:0px;top:26.369px;overflow:visible;" id="All_Acess_Banner_Quote">
+            <div style="position:absolute;width:299.574px;height:48px;left:357.426px;top:171px;overflow:visible;" id="Group_13162">
                 <div id="Deal_of_the_Day">
                     <span>Deal of the Day!</span>
                 </div>
@@ -110,7 +3269,7 @@
                     </path>
                 </svg>
             </div>
-            <div id="Group_13161">
+            <div style="position:absolute;width:270.574px;height:48px;left:357.426px;top:114px;overflow:visible;" id="Group_13161">
                 <div id="Huge_Savings">
                     <span>Huge Savings!</span>
                 </div>
@@ -123,7 +3282,7 @@
                     </path>
                 </svg>
             </div>
-            <div id="Group_13160">
+            <div style="position:absolute;width:272.37px;height:48px;left:355.63px;top:57px;overflow:visible;" id="Group_13160">
                 <div id="To_Any_Venue">
                     <span>To Any Venue!</span>
                 </div>
@@ -136,7 +3295,7 @@
                     </path>
                 </svg>
             </div>
-            <div id="Group_13159">
+            <div style="position:absolute;width:308.37px;height:48px;left:355.63px;top:0px;overflow:visible;" id="Group_13159">
                 <div id="Enjoy_Any_Show">
                     <span>Enjoy Any Show!</span>
                 </div>
@@ -149,12 +3308,12 @@
                     </path>
                 </svg>
             </div>
-            <div id="Arrow_Icon">
+            <div style="position:absolute;width:373.52px;height:165.042px;left:0px;top:28px;overflow:visible;" id="Arrow_Icon">
                 <svg class="Line_43" viewBox="0 0 259.5 75">
                     <path id="Line_43" d="M 0 0 L 259.5 0">
                     </path>
                 </svg>
-                <div id="Group_3467">
+                <div style="position:absolute;width:142.91px;height:165.042px;left:230.61px;top:0px;overflow:visible;" id="Group_3467">
                     <svg class="Path_2511" viewBox="341.13 0 142.91 165.042">
                         <path id="Path_2511" d="M 341.1300048828125 165.0416107177734 L 484.0402526855469 82.52742767333984 L 341.1300048828125 0 L 341.1300048828125 165.0416107177734 Z">
                         </path>
@@ -162,8 +3321,8 @@
                 </div>
             </div>
         </div>
-        <div id="All_Acess_Price">
-            <img id="Mask_Group_30" src="Mask_Group_30.png" srcset="Mask_Group_30.png 1x">
+        <div style="position:absolute;width:662.727px;height:299.371px;left:1257.273px;top:0px;overflow:visible;" id="All_Acess_Price">
+            <img style="mix-blend-mode:normal;position:absolute;width:662.727px;height:299.371px;left:0px;top:0px;overflow:visible;" id="Mask_Group_30" src="Mask_Group_30.png" srcset="Mask_Group_30.png 1x">
 
             </svg>
             <div id="ID00">
@@ -177,8 +3336,8 @@
             </div>
         </div>
     </div>
-    <div id="TICKET_LIST">
-        <div id="Table">
+    <div style="position:absolute;width:1920px;height:950px;left:0px;top:1580px;overflow:visible;" id="TICKET_LIST">
+        <div style="position:absolute;width:1920px;height:950px;left:0px;top:0px;overflow:visible;" id="Table">
             <svg class="Ticket__Backgr">
                 <rect id="Ticket__Backgr" rx="0" ry="0" x="0" y="0" width="1920" height="950">
                 </rect>
@@ -212,7 +3371,7 @@
                 </path>
             </svg>
         </div>
-        <div id="ADD_TO_CART">
+        <div style="position:absolute;width:1809px;height:638px;left:66px;top:295px;overflow:visible;" id="ADD_TO_CART">
             <div id="_The_capacity_of_the_Club_sess">
                 <span>* The capacity of the Club sessions is very limited. Availability for All-Access pass holders can not be guaranteed due to safety regulations.</span>
             </div>
@@ -220,7 +3379,7 @@
                 <ellipse id="Ellipse_1" rx="20.5" ry="20.5" cx="20.5" cy="20.5">
                 </ellipse>
             </svg>
-            <div id="ATC_Button">
+            <div style="position:absolute;width:343px;height:461px;left:1452px;top:69px;overflow:visible;" id="ATC_Button">
                 <svg class="Rectangle_1178">
                     <rect id="Rectangle_1178" rx="19" ry="19" x="0" y="0" width="343" height="54">
                     </rect>
@@ -264,7 +3423,7 @@
                     <span>ADD TO CART</span>
                 </div>
             </div>
-            <div id="Price">
+            <div style="position:absolute;width:135px;height:461px;left:1265px;top:68px;overflow:visible;" id="Price">
                 <div id="ID6000">
                     <span>€60.00</span>
                 </div>
@@ -284,7 +3443,7 @@
                     <span>€125.00</span>
                 </div>
             </div>
-            <div id="Session">
+            <div style="position:absolute;width:204px;height:372px;left:842px;top:151px;overflow:visible;" id="Session">
                 <div id="Club">
                     <span>Club</span>
                 </div>
@@ -301,7 +3460,7 @@
                     <span>Back2Back</span>
                 </div>
             </div>
-            <div id="Pass_Name">
+            <div style="position:absolute;width:391px;height:455px;left:22px;top:68px;overflow:visible;" id="Pass_Name">
                 <div id="Tisto">
                     <span>Tiësto</span>
                 </div>
@@ -321,7 +3480,7 @@
                     <span>All-Access Pass (Friday)</span>
                 </div>
             </div>
-            <div id="Headers">
+            <div style="position:absolute;width:1340px;height:47px;left:22px;top:0px;overflow:visible;" id="Headers">
                 <div id="Price_gd">
                     <span>Price</span>
                 </div>
@@ -333,7 +3492,7 @@
                 </div>
             </div>
         </div>
-        <div id="Date_Selection">
+        <div style="position:absolute;width:1148px;height:83px;left:386px;top:135px;overflow:visible;" id="Date_Selection">
             <svg class="Rectangle_1171">
                 <rect onclick="application.goToTargetView(event)" id="Rectangle_1171" rx="0" ry="0" x="0" y="0" width="314" height="83">
                 </rect>
@@ -364,19 +3523,19 @@
             <span>TICKETS</span>
         </div>
     </div>
-    <div id="WELCOME_IMAGE">
-        <img id="Group_12" src="Group_12.png" srcset="Group_12.png 1x">
+    <div style="position:absolute;width:1920px;height:677px;left:0px;top:9px;overflow:visible;" id="WELCOME_IMAGE">
+        <img style="position:absolute;width:1920px;height:677px;left:0px;top:0px;overflow:visible;" id="Group_12" src="Group_12.png" srcset="Group_12.png 1x">
 
         </svg>
     </div>
-    <div id="DJs_Schedule">
+    <div style="position:absolute;width:1867px;height:852px;left:20px;top:712px;overflow:visible;" id="DJs_Schedule">
         <svg class="Schedule_Backgr">
             <rect id="Schedule_Backgr" rx="51" ry="51" x="0" y="0" width="1028" height="764">
             </rect>
         </svg>
-        <div id="Schedules_Dates">
-            <div id="Sun_29th">
-                <div id="Martin">
+        <div style="position:absolute;width:978px;height:599px;left:859.5px;top:216px;overflow:visible;" id="Schedules_Dates">
+            <div style="position:absolute;width:932px;height:180px;left:17.5px;top:419px;overflow:visible;" id="Sun_29th">
+                <div style="position:absolute;width:759px;height:36px;left:173px;top:144px;overflow:visible;" id="Martin">
                     <div id="ID1800">
                         <span>18:00</span>
                     </div>
@@ -387,7 +3546,7 @@
                         <span>Martin Garrix</span>
                     </div>
                 </div>
-                <div id="Hardwell_gz">
+                <div style="position:absolute;width:758px;height:36px;left:173px;top:108px;overflow:visible;" id="Hardwell_gz">
                     <div id="ID2100">
                         <span>21:00</span>
                     </div>
@@ -398,7 +3557,7 @@
                         <span>Hardwell</span>
                     </div>
                 </div>
-                <div id="Armin">
+                <div style="position:absolute;width:758px;height:36px;left:173px;top:72px;overflow:visible;" id="Armin">
                     <div id="ID1900">
                         <span>19:00</span>
                     </div>
@@ -426,8 +3585,8 @@
                 <path id="Line_4" d="M 0 0 L 978 0">
                 </path>
             </svg>
-            <div id="Sat_28th">
-                <div id="Nicky">
+            <div style="position:absolute;width:759px;height:180px;left:190.5px;top:206px;overflow:visible;" id="Sat_28th">
+                <div style="position:absolute;width:759px;height:36px;left:0px;top:144px;overflow:visible;" id="Nicky">
                     <div id="ID1800_he">
                         <span>18:00</span>
                     </div>
@@ -438,7 +3597,7 @@
                         <span>Nicky Romero</span>
                     </div>
                 </div>
-                <div id="Tiesto">
+                <div style="position:absolute;width:758px;height:36px;left:0px;top:108px;overflow:visible;" id="Tiesto">
                     <div id="ID2100_hi">
                         <span>21:00</span>
                     </div>
@@ -449,7 +3608,7 @@
                         <span>Tiësto</span>
                     </div>
                 </div>
-                <div id="Afrojack">
+                <div style="position:absolute;width:758px;height:36px;left:0px;top:72px;overflow:visible;" id="Afrojack">
                     <div id="ID1900_hm">
                         <span>19:00</span>
                     </div>
@@ -474,8 +3633,8 @@
                 <path id="Line_3" d="M 0 0 L 978 0">
                 </path>
             </svg>
-            <div id="Friday_27th">
-                <div id="Martin_Garrix_hu">
+            <div style="position:absolute;width:936px;height:180px;left:20.5px;top:0px;overflow:visible;" id="Friday_27th">
+                <div style="position:absolute;width:765px;height:36px;left:170px;top:144px;overflow:visible;" id="Martin_Garrix_hu">
                     <div id="Martin_Garrix_hv">
                         <span>Martin Garrix</span>
                     </div>
@@ -486,7 +3645,7 @@
                         <span>22:00</span>
                     </div>
                 </div>
-                <div id="Armin_hy">
+                <div style="position:absolute;width:765px;height:36px;left:170px;top:108px;overflow:visible;" id="Armin_hy">
                     <div id="Armin_van_Buuren_hz">
                         <span>Armin van Buuren</span>
                     </div>
@@ -497,7 +3656,7 @@
                         <span>22:00</span>
                     </div>
                 </div>
-                <div id="Hardwell_h">
+                <div style="position:absolute;width:766px;height:36px;left:170px;top:72px;overflow:visible;" id="Hardwell_h">
                     <div id="Hardwell_ia">
                         <span>Hardwell</span>
                     </div>
@@ -508,7 +3667,7 @@
                         <span>23:00</span>
                     </div>
                 </div>
-                <div id="Tiesto_h">
+                <div style="position:absolute;width:765px;height:36px;left:170px;top:36px;overflow:visible;" id="Tiesto_h">
                     <div id="Tisto_h">
                         <span>Tiësto</span>
                     </div>
@@ -519,7 +3678,7 @@
                         <span>22:00</span>
                     </div>
                 </div>
-                <div id="Nicky_Afrojack">
+                <div style="position:absolute;width:766px;height:36px;left:170px;top:0px;overflow:visible;" id="Nicky_Afrojack">
                     <div id="Nicky_Romero_Afrojack_ib">
                         <span>Nicky Romero/ Afrojack</span>
                     </div>
@@ -539,51 +3698,51 @@
             <path id="Line_2" d="M 0 0 L 978 0">
             </path>
         </svg>
-        <div id="Icons">
-            <img id="Time" src="Time.png" srcset="Time.png 1x">
+        <div style="position:absolute;width:894.24px;height:60px;left:910px;top:121px;overflow:visible;" id="Icons">
+            <img style="position:absolute;width:60px;height:60px;left:834.24px;top:0px;overflow:visible;" id="Time" src="Time.png" srcset="Time.png 1x">
 
             </svg>
-            <img id="Location" src="Location.png" srcset="Location.png 1x">
+            <img style="position:absolute;width:60px;height:60px;left:591.432px;top:0px;overflow:visible;" id="Location" src="Location.png" srcset="Location.png 1x">
 
             </svg>
-            <img id="Dj" src="Dj.png" srcset="Dj.png 1x">
+            <img style="position:absolute;width:60px;height:60px;left:278px;top:0px;overflow:visible;" id="Dj" src="Dj.png" srcset="Dj.png 1x">
 
-            <img id="Calender" src="Calender.png" srcset="Calender.png 1x">
+            <img style="position:absolute;width:60px;height:60px;left:0px;top:0px;overflow:visible;" id="Calender" src="Calender.png" srcset="Calender.png 1x">
 
         </div>
-        <div id="DJs_Info">
+        <div style="position:absolute;width:802px;height:698px;left:0px;top:127px;overflow:visible;" id="DJs_Info">
             <div onclick="application.showOverlay(event,'Nicky_schedule',-2,0)" id="Nicky_Romero_im">
                 <span>Nicky Romero</span>
             </div>
-            <img onclick="application.showOverlay(event,'Nicky_schedule',-2,0)" id="nicky_romero" src="nicky_romero.png" srcset="nicky_romero.png 1x">
+            <img style="position:absolute;width:226px;height:226px;left:570px;top:403px;overflow:visible;" onclick="application.showOverlay(event,'Nicky_schedule',-2,0)" id="nicky_romero" src="nicky_romero.png" srcset="nicky_romero.png 1x">
 
             <div onclick="application.showOverlay(event,'Afrojack_Schedule',-2,0)" id="Afrojack_io">
                 <span>Afrojack</span>
             </div>
-            <img onclick="application.showOverlay(event,'Afrojack_Schedule',-2,0)" id="afrojack" src="afrojack.png" srcset="afrojack.png 1x">
+            <img style="position:absolute;width:226px;height:226px;left:308px;top:403px;overflow:visible;" onclick="application.showOverlay(event,'Afrojack_Schedule',-2,0)" id="afrojack" src="afrojack.png" srcset="afrojack.png 1x">
 
             <div onclick="application.showOverlay(event,'Armin_van_Buuren_schedule',-2,0)" id="Armin_van_Buuren_iq">
                 <span>Armin van Buuren</span>
             </div>
-            <img onclick="application.showOverlay(event,'Armin_van_Buuren_schedule',-2,0)" id="armin_van_buuren" src="armin_van_buuren.png" srcset="armin_van_buuren.png 1x">
+            <img style="position:absolute;width:226px;height:226px;left:46px;top:403px;overflow:visible;" onclick="application.showOverlay(event,'Armin_van_Buuren_schedule',-2,0)" id="armin_van_buuren" src="armin_van_buuren.png" srcset="armin_van_buuren.png 1x">
 
             <div onclick="application.showOverlay(event,'Hardwell_schedule',0,0)" id="Hardwell_is">
                 <span>Hardwell</span>
             </div>
-            <img onclick="application.showOverlay(event,'Hardwell_schedule',0,0)" id="hardwell" src="hardwell.png" srcset="hardwell.png 1x">
+            <img style="position:absolute;width:226px;height:226px;left:570px;top:0px;overflow:visible;" onclick="application.showOverlay(event,'Hardwell_schedule',0,0)" id="hardwell" src="hardwell.png" srcset="hardwell.png 1x">
 
             <div onclick="application.showOverlay(event,'Tiesto_schedule',0,0)" id="Tisto_iu">
                 <span>Tiësto</span>
             </div>
-            <img onclick="application.showOverlay(event,'Tiesto_schedule',0,0)" id="tiesto" src="tiesto.png" srcset="tiesto.png 1x">
+            <img style="position:absolute;width:226px;height:226px;left:308px;top:0px;overflow:visible;" onclick="application.showOverlay(event,'Tiesto_schedule',0,0)" id="tiesto" src="tiesto.png" srcset="tiesto.png 1x">
 
             <div onclick="application.showOverlay(event,'MArtin_Garrix_schedule_',0,0)" id="Martin_Garrix_iw">
                 <span>Martin Garrix</span>
             </div>
-            <img onclick="application.showOverlay(event,'MArtin_Garrix_schedule_',0,0)" id="martin_garrix" src="martin_garrix.png" srcset="martin_garrix.png 1x">
+            <img style="position:absolute;width:226px;height:226px;left:46px;top:0px;overflow:visible;" onclick="application.showOverlay(event,'MArtin_Garrix_schedule_',0,0)" id="martin_garrix" src="martin_garrix.png" srcset="martin_garrix.png 1x">
 
         </div>
-        <div id="Lineup_Sche">
+        <div style="position:absolute;width:1179px;height:70px;left:318px;top:0px;overflow:visible;" id="Lineup_Sche">
             <div id="LINE_UP">
                 <span>LINE UP</span>
             </div>
@@ -595,7 +3754,7 @@
             <span>Saturday<br/>July 28th</span>
         </div>
     </div>
-    <div id="WELCOME_BANNER">
+    <div style="position:absolute;width:676px;height:280px;left:622px;top:280px;overflow:visible;" id="WELCOME_BANNER">
         <svg class="Rectangle_BookTickets">
             <rect id="Rectangle_BookTickets" rx="49" ry="49" x="0" y="0" width="540" height="98">
             </rect>
@@ -610,12 +3769,12 @@
             <span>"Music is life itself."</span>
         </div>
     </div>
-    <div onclick="application.goToTargetView(event)" id="HF_NAV_BAR">
+    <div style="position:absolute;width:1920px;height:182px;left:-1px;top:0px;overflow:visible;" onclick="application.goToTargetView(event)" id="HF_NAV_BAR">
         <svg class="Nav_Bar_Backgr">
             <rect id="Nav_Bar_Backgr" rx="0" ry="0" x="0" y="0" width="1920" height="182">
             </rect>
         </svg>
-        <div id="Nav_Lines">
+        <div style="position:absolute;width:907px;height:99.5px;left:543.5px;top:45px;overflow:visible;" id="Nav_Lines">
             <svg class="Line_113" viewBox="0 0 235 5">
                 <path id="Line_113" d="M 0 0 L 235 0">
                 </path>
@@ -641,13 +3800,13 @@
                 </path>
             </svg>
         </div>
-        <img id="Customer_Icon" src="Customer_Icon.png" srcset="Customer_Icon.png 1x">
+        <img style="position:absolute;width:46.894px;height:57.957px;left:1532.059px;top:63px;overflow:visible;" id="Customer_Icon" src="Customer_Icon.png" srcset="Customer_Icon.png 1x">
 
         </svg>
-        <img id="Cart_Icon" src="Cart_Icon.png" srcset="Cart_Icon.png 1x">
+        <img style="position:absolute;width:56.049px;height:50.191px;left:1663.592px;top:71.262px;overflow:visible;" id="Cart_Icon" src="Cart_Icon.png" srcset="Cart_Icon.png 1x">
 
         </svg>
-        <div id="Nav_Text">
+        <div style="position:absolute;width:1066px;height:82.39px;left:328px;top:52px;overflow:visible;" id="Nav_Text">
             <div id="Food">
                 <span>Food</span>
             </div>
@@ -667,7 +3826,7 @@
                 <span>FESTIVAL</span>
             </div>
         </div>
-        <div id="HF_Logo">
+        <div style="position:absolute;width:113.86px;height:96.5px;left:203.999px;top:45px;overflow:visible;" id="HF_Logo">
             <svg class="Path_40341" viewBox="870.864 -153 25.587 96.5">
                 <path id="Path_40341" d="M 883.6574096679688 -56.5 L 883.6574096679688 -56.5 C 876.5917358398438 -56.5 870.864013671875 -62.22798156738281 870.864013671875 -69.29364776611328 L 870.864013671875 -140.2063598632813 C 870.864013671875 -147.2720336914063 876.5917358398438 -153 883.6574096679688 -153 L 883.6574096679688 -153 C 890.7230834960938 -153 896.4510498046875 -147.2720336914063 896.4510498046875 -140.2063598632813 L 896.4510498046875 -69.29364776611328 C 896.4510498046875 -62.22798156738281 890.7230834960938 -56.5 883.6574096679688 -56.5 Z">
                 </path>
