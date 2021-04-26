@@ -43,7 +43,7 @@
             $slq = "SELECT * FROM Users WHERE Usersemail = ?;";
             $stmt = mysqli_stmt_init($conn);
             if(!mysqli_stmt_prepare($stmt, $slq)){
-                header("location: ../signup.php?error=emailalreadyexists");
+                header("location: ../Signup.php?error=emailalreadyexists");
                 exit();
             }
 
