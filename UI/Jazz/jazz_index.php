@@ -1,6 +1,6 @@
 <?php
-    include_once '../Includes/header.php';
-    include_once '../Service/EventService.php';
+    include_once '../../Includes/header.php';
+    include_once '../../Service/EventService.php';
 
     $eventService = EventService::getInstance();
 ?>
@@ -36,7 +36,7 @@
         Price
     </th>
 </tr>
-    <form action="../Includes/add_to_cart.php" method="post">
+    <form action="../../Includes/add_to_cart.php" method="post">
 <?php
     $id = $_POST; // taking the button id from the post method
     if(isset($_POST[$id])) // if they pushed a button to get to the code:
