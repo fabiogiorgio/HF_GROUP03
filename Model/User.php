@@ -4,6 +4,11 @@
     class User
     {
         private $name;
+        private $email;
+        private $phoneNumber;
+        private $login;
+        private $password;
+        private $role;
 
         /**
          * @return mixed
@@ -101,9 +106,5 @@
             $this->role = $role;
         }
 
-        private $email;
-        private $phoneNumber;
-        private $login;
-        private $password;
-        private $role;
+
     }
