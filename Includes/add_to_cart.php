@@ -1,37 +1,27 @@
 <?php
+
+    require_once '../Service/EventService.php';
     session_start();
-    require_once '../DAL/HostDAL.php';
 
-    if (isset($_POST["gareDuNoordAdd"]))
-    {
-//        $host = new Host();
-//        $host->setHostName("");
-//        $event = new Event();
-//        $event->setEventDate("28-06-2020");
-//        $event->setEventHost("");
-        $HostDAL = HostDAL::getInstance();
-//        $array = $HostDAL->getALlHosts();
-//        for ($i = 0; $i < sizeof($array); $i++)
-//        {
-//            echo $array[$i]["hostName"] . "<br>";
-//        }
+    $id = $_POST; // getting the button id from the post method
+    $service = EventService::getInstance();
+    $events = $service->getAllEvents();
 
-
-    } else if (isset($_POST["rillanAndBombardiesAdd"]))
+    if (isset($_POST[$id])) // checking if the user came here using the post method and clicking on the button
     {
 
-    } else if (isset($_POST["soulSixAdd"]))
-    {
+        array_push($_SESSION['cart'], $id); // adding the id of the event which was given to the button to the cart
 
-    } else if (isset($_POST["hannBennickAdd"]))
-    {
 
-    } else if (isset($_POST["theNordaniansAdd"]))
-    {
-
-    } else if (isset($_POST["lilithAdd"]))
-    {
+        header("location: ../UI/jazz_index.php");  // redirecting the user back to the index
 
     }
+    else // if the user tried to get to this code by url, redirect them back to index
+    {
+        header("location: ../UI/jazz_index.php");
+    }
+
+
+
 
 

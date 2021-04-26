@@ -8,6 +8,10 @@
 
 
         }
+        public function getUserByID($id)
+        {
+
+        }
 
         public function createUser($conn, $firstName, $lastName, $email, $phoneNumber, $loginName, $password, $role){
 

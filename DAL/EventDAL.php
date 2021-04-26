@@ -1,13 +1,15 @@
 <?php
 
     //session_start();
-    require '../../Includes/credentials.php';
 
+
+
+    require_once '../Includes/credentials.php';
 
     class EventDAL
     {
         private static $instance = null;
-        private $conn = null;
+        private $conn;
 
         private function __construct()
         {
@@ -27,11 +29,19 @@
 
         public function getAllEvents()
         {
-            $query = "SELECT e.eventLocation, e.eventDateTime, h.hostName, e.maxCapacity, e.eventPrice from Event as e join Host as h ON e.eventHost = h.HostID";
+            $query = "SELECT e.eventID, e.eventLocation, e.eventDateTime, h.hostName, e.maxCapacity, e.eventPrice from Event as e join Host as h ON e.eventHost = h.HostID";
             return $this->executeSelectQuery($query, '');
 
         }
+        public function getEventsByDay($day, $hostType)
+        {
 
+            $date = '%'.$day.'%';
+            $query = "select e.eventID, e.eventLocation, e.eventDateTime, h.hostName, e.maxCapacity, e.eventPrice from Event as e join Host as h ON e.eventHost = h.HostID where e.eventDateTime like ? and h.hostType = ?";
+            return $this->executeSelectQuery($query, 'ss', $date, $hostType);
+
+
+        }
         private function executeSelectQuery($query, $params, ...$variables)
         {
             return $this->executeQuery($query, $params, ...$variables)->get_result()->fetch_all(MYSQLI_ASSOC);

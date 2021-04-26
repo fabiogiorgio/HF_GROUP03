@@ -1,3 +1,8 @@
+<?php
+session_start();
+    $_SESSION['cart'] = [];
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,7 +13,7 @@
 
 <!--    <script id="applicationScript" type="text/javascript" src="script.js"></script>-->
 
-    <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="../UI/Jazz/jazzstyle.css"/>
+    <link rel="stylesheet" type="text/css" href="../UI/Jazz/jazzstyle.css"/>
 
 </head>
 <body>
