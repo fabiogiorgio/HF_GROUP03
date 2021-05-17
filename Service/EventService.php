@@ -22,6 +22,10 @@
             return $this->dal->getEventsByDay($day, $hostType);
 
         }
+        public function getEventsByType($eventType)
+        {
+            return $this->dal->getEventsByType($eventType);
+        }
 
         public function getAllEvents()
         {

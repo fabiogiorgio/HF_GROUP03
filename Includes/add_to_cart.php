@@ -13,12 +13,12 @@
         array_push($_SESSION['cart'], $id); // adding the id of the event which was given to the button to the cart
 
 
-        header("location: ../UI/jazz_index.php");  // redirecting the user back to the index
+        header("location: ../UI/jazz_days.php");  // redirecting the user back to the index
 
     }
     else // if the user tried to get to this code by url, redirect them back to index
     {
-        header("location: ../UI/jazz_index.php");
+        header("location: ../UI/jazz_days.php");
     }
 
 

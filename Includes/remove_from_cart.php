@@ -13,5 +13,5 @@
 
     else
     {
-        header("location: ../UI/jazz_index.php");
+        header("location: ../UI/jazz_days.php");
     }

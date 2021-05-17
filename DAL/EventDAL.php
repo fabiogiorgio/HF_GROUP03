@@ -42,6 +42,13 @@
 
 
         }
+        public function getEventsByType($eventType)
+        {
+
+            $query = "select e.eventID, e.eventLocation, e.eventDateTime, h.hostName, e.maxCapacity, e.eventPrice from Event as e join Host as h ON e.eventHost = h.HostID where  h.hostType = ?";
+            return $this->executeSelectQuery($query, 's',$eventType);
+
+        }
         private function executeSelectQuery($query, $params, ...$variables)
         {
             return $this->executeQuery($query, $params, ...$variables)->get_result()->fetch_all(MYSQLI_ASSOC);
