@@ -1,6 +1,11 @@
 <?php
+
+    require_once '../Includes/credentials.php';
+
     class UserDAL
     {
+        private static $instance = null;
+        private $conn;
 
         private function __construct()
         {
@@ -8,23 +13,18 @@
 
 
         }
-        public function getUserByID($id)
-        {
 
+        public static function getInstance()
+        {
+            if (self::$instance == null)
+            {
+                self::$instance = new UserDAL();
+            }
+            return self::$instance;
         }
 
         public function createUser($conn, $firstName, $lastName, $email, $phoneNumber, $loginName, $password, $role){
 
-            $DbServername = "server.infhaarlem.nl";
-            $DbUsername = "s644748_HfDB";
-            $DbPassword = "Roflmao000";
-            $DbName = "s644748_HfDB";
-
-            $conn = mysqli_connect($DbServername, $DbUsername, $DbPassword, $DbName);
-
-            if (!$conn){
-                die("Connection failed: " . mysqli_connect_error());
-            }
 
             $slq = "INSERT INTO Users (fullName, email, phoneNumber, login, password, role) VALUES (?, ?, ?, ?, ?, ?);";
             $stmt = mysqli_stmt_init($conn);
@@ -63,6 +63,44 @@
                 return $result;
             }
             mysqli_stmt_close($stmt);
+        }
+
+        public function getAllUsers(){
+
+            $sql = "SELECT * FROM Users";
+            $result = mysqli_query($this->conn, $sql);
+            $users = array();
+
+            if (mysqli_num_rows($result) > 0){
+                foreach($result as $user){
+                    array_push($users, $user);
+                }
+            }
+            return $users;
+        }
+
+        public function userLogin($conn, $email, $password){
+            $emailExists = $this->emailExists($conn, $email);
+
+            if ($emailExists === false){
+                header("location: ../Login.php?error=wronglogin");
+                exit();
+            }
+
+            $passwordhashed = $emailExists["Userspassword"];
+            $checkPassword = password_verify($password, $passwordhashed);
+
+            if ($checkPassword === false){
+                header("location: ../Login.php?error=wronglogin");
+                exit();
+            }
+            else if($checkPassword === true){
+                session_start();
+                $_SESSION["Usersemail"] = $emailExists["Usersemail"];
+                $_SESSION["Userspassword"] = $emailExists["Userspassword"];
+                header("location: ../CMS.php");
+            }
+            exit();
         }
 
 
