@@ -1,27 +1,22 @@
 <?php
-include_once '../../UserDAL.php';
+include_once '../../Includes/header.php';
+include_once '../../Service/UserService.php.php';
 
-function userLogin($conn, $email, $password){
-    $emailExists = emailExists($conn, $email);
+$userService = UserService::getInstance();
 
-    if ($emailExists == false){
-        header("location: Login.php?error=wronglogin");
-        exit();
-    }
+if (isset($_POST["submit"])){
+    $email = $_POST["email"];
+    $password = $_POST["password"];
 
-    $passwordhashed = $emailExists["Userspassword"];
-    $checkPassword = password_verify($password, $passwordhashed);
-
-    if ($checkPassword == false){
-        header("location: Login.php?error=wronglogin");
-        exit();
-    }
-    else if($checkPassword == true){
-        session_start();
-        $_SESSION["Usersemail"] = $emailExists["Usersemail"];
-        $_SESSION["Userspassword"] = $emailExists["Userspassword"];
-        //header("location: ../profile.php");
-        echo "Welcome...";
-    }
+    $userService->userLogin($this->conn, $email, $password);
+}
+//if you forgot your password and want to reset it
+else if(isset($_POST["resetPassword"])){
+    header("location: ../resetPassword.php");
     exit();
 }
+else{
+    header("location: ../Login.php");
+    exit();
+}
+

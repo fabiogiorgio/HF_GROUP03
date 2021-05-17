@@ -1,18 +1,10 @@
 <?php
-include_once '../../DAL/UserDAL.php';
+include_once '../../Includes/header.php';
+include_once '../../Service/UserService.php';
+
+$eventService = UserService::getInstance();
 
 if (isset($_POST["submit"])){
-    $DbServername = "server.infhaarlem.nl";
-    $DbUsername = "s644748_HfDB";
-    $DbPassword = "Roflmao000";
-    $DbName = "s644748_HfDB";
-
-    $conn = mysqli_connect($DbServername, $DbUsername, $DbPassword, $DbName);
-
-    if (!$conn){
-        die("Connection failed: " . mysqli_connect_error());
-    }
-
 
     $firstName = $_POST["firstName"];
     $lastName = $_POST["lastName"];
@@ -20,10 +12,10 @@ if (isset($_POST["submit"])){
     $loginName = $_POST["loginName"];
     $password = $_POST["password"];
     $repeatPassword = $_POST["repeatPassword"];
-    $role = $_POST["role"];
+    $role = 1;
 
 
-    createUser($conn, $firstName, $lastName, $email, $loginName, $password, $repeatPassword, $role);
+    $eventService->createUser($this->conn, $firstName, $lastName, $email, $loginName, $password, $repeatPassword, $role);
     echo("Success!!!!");
 
 

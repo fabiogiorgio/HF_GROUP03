@@ -1,5 +1,5 @@
 <?php
-    require_once '../Service/EventService.php';
+    require_once '../../Service/EventService.php';
     $service = EventService::getInstance();
     $events = $service->getAllEvents(); // getting all of the events from db to be able to show their details in cart page, since session array contains only id
 

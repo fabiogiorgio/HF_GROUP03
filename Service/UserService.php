@@ -1,5 +1,5 @@
 <?php
-    require_once '../DAL/UserDAL.php.php';
+require_once '../DAL/UserDAL.php';
 
     class UserService
     {
@@ -8,7 +8,7 @@
 
         private function __construct()
         {
-            $this->dal = HostDAL::getInstance();
+            $this->dal = UserDAL::getInstance();
 
         }
 
@@ -24,5 +24,23 @@
         {
 
         }
+        public function createUser($conn, $firstName, $lastName, $email, $phoneNumber, $loginName, $password, $role){
 
+            return $this->dal->createUser($conn, $firstName, $lastName, $email, $phoneNumber, $loginName, $password, $role);
+        }
+
+        public function emailExists($conn, $email){
+
+            return $this->dal->emailExists($conn, $email);
+        }
+
+        public function userLogin($conn, $email, $password){
+
+            return $this->userLogin($conn, $email, $password);
+        }
+
+        public function getAllUsers(){
+
+            return $this->getAllUsers();
+        }
     }
