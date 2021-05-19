@@ -1,5 +1,5 @@
 <?php
-    require_once '../DAL/HostDAL.php';
+    require_once '../../DAL/HostDAL.php';
 
     class HostService
     {
@@ -19,6 +19,14 @@
                 self::$instance = new HostService();
             }
             return self::$instance;
+        }
+        public function getHostsByType($hostType)
+        {
+            return $this->dal->getHostsByType($hostType);
+        }
+        public function getAllHosts()
+        {
+            return $this->dal->getAllHosts();
         }
 
 

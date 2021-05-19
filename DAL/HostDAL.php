@@ -1,7 +1,7 @@
 <?php
 
-    session_start();
-    require_once '../includes/credentials.php';
+    /*session_start();*/
+    require_once '../../includes/credentials.php';
 
     class HostDAL
     {
@@ -10,8 +10,6 @@
         private function __construct()
         {
             $this->conn = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_DB);
-
-
         }
         public static function getInstance()
         {
@@ -23,6 +21,15 @@
 
         }
 
+        public function getHostsByType($hostType)
+        {
+
+            /*$query = "select e.eventID, e.eventLocation, e.eventDateTime, h.hostName, e.maxCapacity, e.eventPrice from Event as e join Host as h ON e.eventHost = h.HostID where  h.hostType = ?";
+            */
+            $query = "select h.hostID, h.hostName, h.hostType, h.hostDescription from Host as h where h.hostType = $hostType";
+            return $this->executeSelectQuery($query, "",$hostType);
+
+        }
 
         public function getALlHosts()
         {
@@ -42,7 +49,7 @@
         private function executeQuery($query, $params, ...$variables)
         {
 
-            //$this->conn->set_charset('utf8');
+            $this->conn->set_charset('utf8');
 
             $stmt = mysqli_stmt_init($this->conn);
             mysqli_stmt_prepare($stmt, $query);
