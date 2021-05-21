@@ -64,7 +64,7 @@ $eventService = EventService::getInstance();
                 <td><button type="button" name="editEvent"> Edit </button> </td>
             </tr>
  <?php
-            }
+             }
  ?>
 </table>
 
