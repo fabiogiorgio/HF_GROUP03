@@ -26,7 +26,7 @@ $eventService = EventService::getInstance();
 </style>
 
 <header xmlns="http://www.w3.org/1999/html">
-    <h1>Content management</h1>
+    <h1>Content management JAZZ</h1>
 </header>
 <body>
 
