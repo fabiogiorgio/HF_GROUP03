@@ -1,13 +1,16 @@
 <?php
     require_once '../DAL/EventDAL.php';
+
     class EventService
     {
         private $dal = null;
         private static $instance;
+
         private function __construct()
         {
             $this->dal = EventDAL::getInstance();
         }
+
         public static function getInstance()
         {
             if (self::$instance == null)
@@ -22,6 +25,7 @@
             return $this->dal->getEventsByDay($day, $hostType);
 
         }
+
         public function getEventsByType($eventType)
         {
             return $this->dal->getEventsByType($eventType);
@@ -31,7 +35,6 @@
         {
             return $this->dal->getAllEvents();
         }
-
 
 
     }

@@ -3,7 +3,6 @@
     //session_start();
 
 
-
     require_once '../Includes/credentials.php';
 
     class EventDAL
@@ -33,22 +32,25 @@
             return $this->executeSelectQuery($query, '');
 
         }
+
         public function getEventsByDay($day, $hostType)
         {
 
-            $date = '%'.$day.'%';
+            $date = '%' . $day . '%';
             $query = "select e.eventID, e.eventLocation, e.eventDateTime, h.hostName, e.maxCapacity, e.eventPrice from Event as e join Host as h ON e.eventHost = h.HostID where e.eventDateTime like ? and h.hostType = ?";
             return $this->executeSelectQuery($query, 'ss', $date, $hostType);
 
 
         }
+
         public function getEventsByType($eventType)
         {
 
             $query = "select e.eventID, e.eventLocation, e.eventDateTime, h.hostName, e.maxCapacity, e.eventPrice from Event as e join Host as h ON e.eventHost = h.HostID where  h.hostType = ?";
-            return $this->executeSelectQuery($query, 's',$eventType);
+            return $this->executeSelectQuery($query, 's', $eventType);
 
         }
+
         private function executeSelectQuery($query, $params, ...$variables)
         {
             return $this->executeQuery($query, $params, ...$variables)->get_result()->fetch_all(MYSQLI_ASSOC);
@@ -67,7 +69,8 @@
                 try
                 {
                     mysqli_stmt_bind_param($stmt, $params, ...$variables);
-                } catch (Exception $e)
+                }
+                catch (Exception $e)
                 {
                     throw new Exception("Connection failed: $e");
                 }
@@ -83,4 +86,5 @@
             return $stmt;
         }
     }
-    ?>
+
+?>

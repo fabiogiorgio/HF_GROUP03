@@ -1,9 +1,9 @@
 <?php
-require_once '../DAL/UserDAL.php';
+    require_once '../DAL/UserDAL.php';
 
     class UserService
     {
-        private $dal;
+        private $dal = null;
         private static $instance;
 
         private function __construct()
@@ -36,7 +36,7 @@ require_once '../DAL/UserDAL.php';
 
         public function userLogin($conn, $email, $password){
 
-            return $this->userLogin($conn, $email, $password);
+            return $this->dal->userLogin($conn, $email, $password);
         }
 
         public function getAllUsers(){
