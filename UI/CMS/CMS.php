@@ -81,6 +81,9 @@ $eventService = EventService::getInstance();
             Email
         </th>
         <th>
+            Phone Number
+        </th>
+        <th>
             Login
         </th>
         <th>
