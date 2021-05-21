@@ -37,6 +37,6 @@
 
         public function getAllUsers(){
 
-            return $this->getAllUsers();
+            return $this->dal->getAllUsers();
         }
     }
