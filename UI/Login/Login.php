@@ -8,7 +8,7 @@
 <body>
 <section>
 <h1> Log In </h1>
-<form action = "includes/login.inc.php" method= "post">
+<form action = "login.inc.php" method= "post">
 <input type="text" name="email" placeholder="Enter your email...">
 <br>
 <input type="password" name="password" placeholder="Enter your password...">

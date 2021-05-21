@@ -35,7 +35,7 @@ for($i=0; $i<sizeof($allEvents); $i++)
     $usersArray = array();
     $usersArray = $userService->getAllUsers();
     for ($i = 0; $i < sizeof($usersArray); $i++) {
-    echo($usersArray[$i]["Usersemail"] . "<br>");
+    echo($usersArray[$i]["email"] . "<br>");
     }
     ?>
 
