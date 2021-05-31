@@ -56,7 +56,12 @@ session_start();
     </th>
     <th>
         <a href="">
-            CMS
+            Cart
+        </a>
+    </th>
+    <th>
+        <a href="">
+            Log out
         </a>
     </th>
 </nav>
