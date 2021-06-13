@@ -9,7 +9,11 @@ $allEvents = $eventDal->getAllEvents();
 $userService = UserService::getInstance();
 $eventService = EventService::getInstance();
 $hostService = HostService::getInstance();
+
+
 ?>
+
+
 <style>
     table {
         font-family: arial, sans-serif;
@@ -34,7 +38,7 @@ $hostService = HostService::getInstance();
 <body>
 
 <section>
-    <form action="CMSJazz_inc.php" method="post">
+    <form method="post">
 
         <table>
             <tr>
@@ -53,9 +57,6 @@ $hostService = HostService::getInstance();
                 <th>
                     Nobody likes change!!!
                 </th>
-                <th>
-                    Delete
-                </th>
             </tr>
             <?php
             $events = $eventService->getEventsByType("Jazz");
@@ -67,9 +68,7 @@ $hostService = HostService::getInstance();
                     <td><?php echo $events[$i]["eventLocation"]; ?></td>
                     <td><?php echo $events[$i]["eventDateTime"]; ?></td>
                     <td><?php echo $events[$i]["eventPrice"]; ?> </td>
-                    <td><button type="button" name="editEvent" Edit </button> </td>
-                    <td><button type="button" name="deleteEvent"> Delete </button> </td>
-                </tr>
+                    <td><a href="CMSEventDetails.php?id=<?php echo $events[i]["eventID"]; ?>"> Edit</a></td>
                 <?php
             }
             ?>
@@ -101,7 +100,7 @@ $hostService = HostService::getInstance();
             </tr>
             <h2>All artists details</h2>
             <?php
-            $hosts = $hostService->getAllHosts();
+            $hosts = NULL; //$hostService->();
 
             for($i=0;$i<sizeof($hosts);$i++)
             {
@@ -113,7 +112,7 @@ $hostService = HostService::getInstance();
                         <td><?php  $image = $hosts[$i]['img'];?></td>
                         <td><?php echo $hosts[$i]["hostName"];?>
                         <td><?php echo $hosts[$i]["description"];?></td>
-                        <td><button type="button" name="editHost" Edit </button> </td>
+                        <td><button type="button" name="editHost"> Edit </button> </td>
                         <td><button type="button" name="deleteHost"> Delete </button> </td>
                     </tr>
                     <?php
@@ -122,6 +121,7 @@ $hostService = HostService::getInstance();
             ?>
 
         </table>
+
     </form>
 </section>
 

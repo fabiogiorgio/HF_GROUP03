@@ -1,7 +1,7 @@
 <?php
 
     session_start();
-    require_once '../includes/credentials.php';
+    require_once '../../includes/credentials.php';
 
     class HostDAL
     {
