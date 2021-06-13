@@ -4,26 +4,6 @@
     class Host
     {
         private $hostID;
-        private $hostName;
-        private $hostType; //either food, jazz or dance.
-        private $hostDescription;
-
-        /**
-         * @return mixed
-         */
-        public function getHostDescription()
-        {
-            return $this->hostDescription;
-        }
-
-        /**
-         * @param mixed $hostDescription
-         */
-        public function setHostDescription($hostDescription): void
-        {
-            $this->hostDescription = $hostDescription;
-        }
-
 
         /**
          * @return mixed
@@ -72,4 +52,7 @@
         {
             $this->hostType = $hostType;
         }
+
+        private $hostName;
+        private $hostType; //either food, jazz or dance.
     }

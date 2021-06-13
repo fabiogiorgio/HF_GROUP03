@@ -4,7 +4,7 @@
 
 
 
-    require_once '../../Includes/credentials.php';
+    require_once '../Includes/credentials.php';
 
     class EventDAL
     {
