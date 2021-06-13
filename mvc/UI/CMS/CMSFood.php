@@ -2,10 +2,13 @@
 require_once "../../includes/header.php";
 require_once "../../Service/EventService.php";
 require_once "../../Service/UserService.php";
+include_once '../../Service/HostService.php';
 $eventDal = EventDAL::getInstance();
 $allEvents = $eventDal->getAllEvents();
 $userService = UserService::getInstance();
 $eventService = EventService::getInstance();
+$hostService = HostService::getInstance();
+
 ?>
 <style>
     table {
@@ -54,8 +57,10 @@ $eventService = EventService::getInstance();
                     Nobody likes change!!!
                 </th>
             </tr>
+            <h2>All food events</h2>
             <?php
             $events = $eventService->getEventsByType("Food");
+
             for($i=0;$i<sizeof($events);$i++)
             {
                 ?>
@@ -75,6 +80,50 @@ $eventService = EventService::getInstance();
         <br>
         <button type="button" name="AddEvent"> Add Event </button>
 
+
+        <table>
+
+        <tr>
+            <th>
+                Image
+            </th>
+
+            <th>
+                Name
+            </th>
+
+            <th>
+                Description
+            </th>
+            <th>
+                Nobody likes change
+            </th>
+            <th>
+                Delete
+            </th>
+        </tr>
+            <h2>All restaurant details</h2>
+            <?php
+            $hosts = $hostService->getHostsByType("Food");
+            for($i=0;$i<sizeof($hosts);$i++)
+            {
+            if ($hosts[$i]["hostType"] == "Food")
+            {
+            ?>
+            <tr>
+
+                <td><?php $image = $hosts[$i]['img'];?></td>
+                <td><?php echo $hosts[$i]["hostName"];?>
+                <td><?php echo $hosts[$i]["description"];?></td>
+                <td><button type="button" name="editHost"> Edit </button> </td>
+                <td><button type="button" name="deleteHost"> Delete </button> </td>
+            </tr>
+            <?php
+    }
+}
+?>
+
+        </table>
     </form>
 </section>
 

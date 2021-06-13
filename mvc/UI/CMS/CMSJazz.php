@@ -2,10 +2,13 @@
 require_once "../../includes/header.php";
 require_once "../../Service/EventService.php";
 require_once "../../Service/UserService.php";
+include_once '../../Service/HostService.php';
+
 $eventDal = EventDAL::getInstance();
 $allEvents = $eventDal->getAllEvents();
 $userService = UserService::getInstance();
 $eventService = EventService::getInstance();
+$hostService = HostService::getInstance();
 ?>
 <style>
     table {
@@ -50,6 +53,9 @@ $eventService = EventService::getInstance();
                 <th>
                     Nobody likes change!!!
                 </th>
+                <th>
+                    Delete
+                </th>
             </tr>
             <?php
             $events = $eventService->getEventsByType("Jazz");
@@ -61,7 +67,7 @@ $eventService = EventService::getInstance();
                     <td><?php echo $events[$i]["eventLocation"]; ?></td>
                     <td><?php echo $events[$i]["eventDateTime"]; ?></td>
                     <td><?php echo $events[$i]["eventPrice"]; ?> </td>
-                    <td><button type="button" name="editEvent"> Edit </button> </td>
+                    <td><button type="button" name="editEvent" href="hostDetails.php?event=4&id=<?php $events[i]?>> Edit </button> </td>
                     <td><button type="button" name="deleteEvent"> Delete </button> </td>
                 </tr>
                 <?php
@@ -71,6 +77,50 @@ $eventService = EventService::getInstance();
         <br>
         <button type="button" name="AddEvent"> Add Event </button>
 
+
+        <table>
+
+            <tr>
+                <th>
+                    Image
+                </th>
+
+                <th>
+                    Name
+                </th>
+
+                <th>
+                    Description
+                </th>
+                <th>
+                    Nobody likes change
+                </th>
+                <th>
+                    Delete
+                </th>
+            </tr>
+            <h2>All artists details</h2>
+            <?php
+            $hosts = $hostService->getHostsByType("Jazz");
+            for($i=0;$i<sizeof($hosts);$i++)
+            {
+                if ($hosts[$i]["hostType"] == "Food")
+                {
+                    ?>
+                    <tr>
+
+                        <td><?php $image = $hosts[$i]['img'];?></td>
+                        <td><?php echo $hosts[$i]["hostName"];?>
+                        <td><?php echo $hosts[$i]["description"];?></td>
+                        <td><button type="button" name="editHost" href="hostDetails.php?event=4&id=<?php $hosts[i]?>"> Edit </button> </td>
+                        <td><button type="button" name="deleteHost"> Delete </button> </td>
+                    </tr>
+                    <?php
+                }
+            }
+            ?>
+
+        </table>
     </form>
 </section>
 
