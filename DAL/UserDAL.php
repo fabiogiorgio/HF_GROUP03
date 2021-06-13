@@ -23,34 +23,25 @@
             return self::$instance;
         }
 
-        public function createUser($conn, $firstName, $lastName, $email, $phoneNumber, $loginName, $password, $role){
+        public function createUser($fullName, $email, $phoneNumber, $loginName, $password, $role){
 
 
-            $slq = "INSERT INTO Users (fullName, email, phoneNumber, login, password, role) VALUES (?, ?, ?, ?, ?, ?);";
-            $stmt = mysqli_stmt_init($conn);
-            if(!mysqli_stmt_prepare($stmt, $slq)){
-                header("location: ../Signup.php?error=stmtfailed");
-                exit();
-            }
+            $slq = "INSERT INTO User (fullName, email, phoneNumber, login, password, role) VALUES (?, ?, ?, ?, ?, ?)";
+            $stmt = mysqli_stmt_init($this ->conn);
+            mysqli_stmt_prepare($stmt, $slq);
 
             $hashPassword = password_hash($password, PASSWORD_DEFAULT);
-            $fullName = $firstName + " " + $lastName;
-
             mysqli_stmt_bind_param($stmt, "ssssss", $fullName, $email, $phoneNumber, $loginName, $hashPassword, $role);
             mysqli_stmt_execute($stmt);
             mysqli_stmt_close($stmt);
-            header("location: ../Login.php");
+            header("location: Login.php?error=userRegistered");
             exit();
         }
 
-        public function emailExists($conn, $email){
-            $slq = "SELECT * FROM Users WHERE Usersemail = ?;";
-            $stmt = mysqli_stmt_init($conn);
-            if(!mysqli_stmt_prepare($stmt, $slq)){
-                header("location: ../Signup.php?error=emailalreadyexists");
-                exit();
-            }
-
+        public function emailExists($email){
+            $slq = "SELECT * FROM User WHERE email = ?;";
+            $stmt = mysqli_stmt_init($this->conn);
+            mysqli_stmt_prepare($stmt, $slq);
             mysqli_stmt_bind_param($stmt, "s", $email);
             mysqli_stmt_execute($stmt);
             $resultData = mysqli_stmt_get_result($stmt);
@@ -67,7 +58,7 @@
 
         public function getAllUsers(){
 
-            $sql = "SELECT * FROM Users";
+            $sql = "SELECT * FROM User";
             $result = mysqli_query($this->conn, $sql);
             $users = array();
 
@@ -79,15 +70,10 @@
             return $users;
         }
 
-        public function userLogin($conn, $email, $password){
-            $emailExists = $this->emailExists($conn, $email);
+        public function userLogin($email, $password){
+            $emailExists = $this->emailExists($email);
 
-            if ($emailExists === false){
-                header("location: ../Login.php?error=wronglogin");
-                exit();
-            }
-
-            $passwordhashed = $emailExists["Userspassword"];
+            $passwordhashed = $emailExists["password"];
             $checkPassword = password_verify($password, $passwordhashed);
 
             if ($checkPassword === false){
