@@ -15,14 +15,7 @@
         <div class="col-6 text-center">
             <h2>LINE UP</h2>
             <div class="row row-cols-3">
-                <?php foreach ($data['list'] as $item): ?>
-                    <div class="col-4 display-flex">
-                        <div class="access-item">
-                            <img src="./public/images/<?= $item['image']; ?>" width=220 alt="">
-                        </div>
-                        <span class="access-item-title"><?= $item['title']; ?></span>
-                    </div>
-                <?php endforeach; ?>
+                <img src="public/images/dj.PNG" style="width:100%;"/>
             </div>
         </div>
         <div class="col-6 text-center">
@@ -49,7 +42,7 @@
                         </td>
                         <td>
                             <?php foreach ($value as $time): ?>
-                                <p><?= date('H.m', strtotime($time['from'])); ?></p>
+                                <p><?= date('H:i', strtotime($time['from'])); ?></p>
                             <?php endforeach; ?>
                         </td>
                     </tr>
@@ -65,7 +58,7 @@
             <div class="row mb-5 d-flex justify-content-center" style="margin-top: 100px">
                 <?php foreach ($data['days'] as $day): ?>
                     <div class="col-3 event-day <?= $day['active'] == 1 ? 'active' : ''; ?>">
-                        <a href="?url=allAccess/execute/<?= $day['day'] ?>"><?= $day['day'] ?>th
+                        <a href="?url=dance/execute/<?= $day['day'] ?>"><?= $day['day'] ?>th
                             | <?= $day['dayOfWeed']; ?></a>
                     </div>
                 <?php endforeach; ?>
@@ -83,7 +76,7 @@
             <tbody>
             <?php foreach ($data['tickets'] as $ticket): ?>
                 <tr>
-                    <th scope="row"><?= $ticket['title']; ?></th>
+                    <th scope="row"><?= $ticket['title']; ?></th>               
                     <td><?= $ticket['session']; ?></td>
                     <td>€<?= $ticket['price']; ?>.00</td>
                     <td>
