@@ -2,25 +2,22 @@
 include_once '../../Includes/header.php';
 include_once '../../Service/UserService.php';
 
-$eventService = UserService::getInstance();
-
+$userService = UserService::getInstance();
 if (isset($_POST["submit"])){
 
-    $firstName = $_POST["firstName"];
-    $lastName = $_POST["lastName"];
+    $fullName = $_POST["firstName"];
     $email = $_POST["email"];
+    $phoneNumber = $_POST["phoneNumber"];
     $loginName = $_POST["loginName"];
     $password = $_POST["password"];
     $repeatPassword = $_POST["repeatPassword"];
-    $role = 1;
+    $role = 0;
 
 
-    $eventService->createUser($this->conn, $firstName, $lastName, $email, $loginName, $password, $repeatPassword, $role);
-    echo("Success!!!!");
-
+    $userService->createUser($fullName, $email, $phoneNumber, $loginName, $password, $role);
 
 }
 else{
-    header("location: ../signup.php");
+    header("location: Signup.php");
     exit();
 }

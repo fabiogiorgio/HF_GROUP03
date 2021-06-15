@@ -20,27 +20,23 @@
             }
             return self::$instance;
         }
-        public function getUserByID($id)
-        {
+        public function createUser($fullName, $email, $phoneNumber, $loginName, $password, $role){
 
-        }
-        public function createUser($conn, $firstName, $lastName, $email, $phoneNumber, $loginName, $password, $role){
-
-            return $this->dal->createUser($conn, $firstName, $lastName, $email, $phoneNumber, $loginName, $password, $role);
+            return $this->dal->createUser($fullName, $email, $phoneNumber, $loginName, $password, $role);
         }
 
-        public function emailExists($conn, $email){
+        public function emailExists($email){
 
-            return $this->dal->emailExists($conn, $email);
+            return $this->dal->emailExists($email);
         }
 
-        public function userLogin($conn, $email, $password){
+        public function userLogin($email, $password){
 
-            return $this->dal->userLogin($conn, $email, $password);
+            return $this->dal->userLogin($email, $password);
         }
 
         public function getAllUsers(){
 
-            return $this->getAllUsers();
+            return $this->dal->getAllUsers();
         }
     }

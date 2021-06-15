@@ -17,31 +17,51 @@ session_start();
 
 </head>
 <body>
+<style>
+    nav {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 500%;
+        background-color: bisque;
+        margin: fill;
+    }
 
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: center;
+        padding: 8px;
+        width: max-content;
+    }
+</style>
 <nav>
-    <li>
+    <th>
         <a href="">
             Home
         </a>
-    </li>
-    <li>
+    </th>
+    <th>
         <a href="">
             Jazz
         </a>
-    </li>
-    <li>
+    </th>
+    <th>
         <a href="">
             Dance
         </a>
-    </li>
-    <li>
+    </th>
+    <th>
         <a href="">
             Food
         </a>
-    </li>
-    <li>
+    </th>
+    <th>
         <a href="">
-            CMS
+            Cart
         </a>
-    </li>
+    </th>
+    <th>
+        <a href="">
+            Log out
+        </a>
+    </th>
 </nav>
