@@ -1,24 +1,38 @@
 <?php
-
-    require_once '../Service/EventService.php';
     session_start();
 
-    $id = $_POST; // getting the button id from the post method
-    $service = EventService::getInstance();
-    $events = $service->getAllEvents();
+    require_once '../Service/EventService.php';
+//    session_start();
 
-    if (isset($_POST[$id])) // checking if the user came here using the post method and clicking on the button
+
+
+    $cart = array();
+    if(!empty($_SESSION['cart'])) // if the session array is empty then cart will stay empty, otherwise it will be assigned to cart
     {
-
-        array_push($_SESSION['cart'], $id); // adding the id of the event which was given to the button to the cart
-
-
-        header("location: ../UI/jazz_days.php");  // redirecting the user back to the index
-
+        $cart = $_SESSION['cart'];
     }
+
+
+    if(isset($_POST['addEvent']))
+    {
+        $eventDetails = explode('~', $_POST['addEvent']); // the details consists of the day and the event id
+        $notes = $_POST['notes'];
+        $eventId = $eventDetails[0]; // taking the event id from the post super global
+        $eventDay = $eventDetails[1];
+        $cart[] = ['ID' => $eventId, 'notes' => $notes];
+
+
+//        array_push($cart, $eventId); // adding the value of eventId to the cart array
+        $_SESSION['cart'] = $cart; // reassigning the cart to the session array
+        header("location: ../UI/jazz_days.php?eventDay=". $eventDay);
+    }
+
+
+
+
     else // if the user tried to get to this code by url, redirect them back to index
     {
-        header("location: ../UI/jazz_days.php");
+        header("location: ../UI/jazz_index.php");
     }
 
 

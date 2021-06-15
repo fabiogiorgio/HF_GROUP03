@@ -1,17 +1,29 @@
 <?php
+session_start();
 
-    $id = $_POST; // getting the id from post
 
-    if (isset($_POST[$id]))
+    if (isset($_POST['deleteEvent']))
     {
+        $eventId = $_POST['deleteEvent'];
+
         // checking to find the id in cart
-        if (($key= array_search($id, $_SESSION['cart'])) !==false)
+        // thank you stackoverflow!!
+//        foreach($data as $key=>$row){
+//            if($row['store_id'] == 2){
+//                unset($data[$key]);
+//            }
+//        }
+        foreach ($_SESSION['cart'] as $key=>$row)
         {
-            unset($_SESSION['cart'][$key]); // removing the id thus the whole event from cart (aka session array) based on the button's id which was given by the event id
+            if($row['ID'] == $eventId)
+            {
+                unset($_SESSION['cart'][$key]);
+                header("location: ../UI/cart.php");
+            }
         }
     }
 
     else
     {
-        header("location: ../UI/jazz_days.php");
+        header("location: ../UI/jazz_index.php");
     }

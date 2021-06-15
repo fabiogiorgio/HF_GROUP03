@@ -20,6 +20,14 @@
             }
             return self::$instance;
         }
+        public function getAllHosts()
+        {
+            return $this->dal->getALlHosts();
+        }
+        public function getHostsByType($hostType)
+        {
+            return $this->dal->getHostsByType($hostType);
+        }
 
 
     }

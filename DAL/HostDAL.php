@@ -1,7 +1,11 @@
 <?php
 
+<<<<<<< Updated upstream
     session_start();
     require_once '../../includes/credentials.php';
+=======
+    require_once '../includes/credentials.php';
+>>>>>>> Stashed changes
 
     class HostDAL
     {
@@ -26,13 +30,16 @@
 
         public function getALlHosts()
         {
-            $query = "SELECT HostID, hostName, hostType FROM Host";
-//            $stmt = mysqli_stmt_init($this->conn);
-//            mysqli_stmt_prepare($stmt, $query);
-//            $this->executeSelectQuery($query, "");
-            return $this->executeQuery($query, "")->get_result()->fetch_all(MYSQLI_ASSOC);
+            $query = "SELECT HostID, hostName, hostType, description FROM Host";
 
+            return $this->executeSelectQuery($query, "");
 
+        }
+        public function getHostsByType($hostType)
+        {
+            $query = "SELECT HostID, hostName, hostType, description FROM Host WHERE hostType = ?";
+
+            return $this->executeSelectQuery($query, "s", $hostType);
         }
         private function executeSelectQuery($query, $params, ...$variables)
         {
